@@ -1,0 +1,13 @@
+# Obsidian settings (optional – ignore if personal)
+# .obsidian/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node / build stuff (if any)
+node_modules/
+dist/

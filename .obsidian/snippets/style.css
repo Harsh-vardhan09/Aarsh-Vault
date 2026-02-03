@@ -1,0 +1,89 @@
+/* Dark Mode Grid Backgroud */
+
+/* .workspace .cm-s-obsidian {
+  background-color: #0f0f0f !important;
+  background-image:
+    linear-gradient(#2a2a2a 1px, transparent 1px),
+    linear-gradient(90deg, #2a2a2a 1px, transparent 1px);
+  background-size: 40px 40px; 
+  background-attachment: fixed;
+} */
+
+/* Global Grid Background */
+/* body.theme-dark .app-container {
+  background-color: #0f0f0f !important;
+  
+  background-attachment: fixed !important;
+}
+
+/* Make all workspace layers transparent */
+/* body.theme-dark .workspace,
+body.theme-dark .workspace-split.mod-root,
+body.theme-dark .workspace-split.mod-vertical,
+body.theme-dark .workspace-split.mod-horizontal,
+body.theme-dark .workspace-leaf,
+body.theme-dark .workspace-leaf-content,
+body.theme-dark .view-content,
+body.theme-dark .mod-root.workspace-split,
+body.theme-dark .mod-horizontal.workspace-split {
+  background: transparent !important;
+} */ 
+
+/* Some vaults use this wrapper too */
+/* body.theme-dark .workspace-tabs,
+body.theme-dark .workspace-tab-header-container,
+body.theme-dark .workspace-tab-container {
+  background: transparent !important;
+} */
+
+/* Sidebars too */
+/* body.theme-dark .side-dock,
+body.theme-dark .side-dock-container {
+  background: transparent !important;
+} */
+
+/* -----------------------------------------------------------
+   GLOBAL DARK BACKGROUND (EVERYTHING EXCEPT WORKSPACE)
+----------------------------------------------------------- */
+.theme-dark,
+.theme-dark .app-container,
+.theme-dark .workspace,
+.theme-dark .workspace-split,
+.theme-dark .side-dock,
+.theme-dark .nav-folder-children,
+.theme-dark .nav-files-container,
+.theme-dark .workspace-tab-header-container,
+.theme-dark .status-bar,
+.theme-dark .titlebar,
+.theme-dark .workspace-tabs,
+.theme-dark .view-header {
+  background-color: #000000 !important;
+  background-image: none !important;
+}
+
+/* -----------------------------------------------------------
+   WORKSPACE EDITOR GRID (EXACT AS YOUR REFERENCE IMAGE)
+----------------------------------------------------------- */
+.theme-dark .markdown-source-view,
+.theme-dark .markdown-preview-view,
+.theme-dark .workspace-leaf-content {
+  background-color: #000000 !important; /* same color as global */
+
+  /* Grid + crosshair overlay */
+  background-image:
+    /* vertical lines */
+    linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    /* horizontal lines */
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    /* crosshair dots */
+    radial-gradient(circle, rgba(255, 255, 255, 0.08) 1px, transparent 2px);
+
+  background-size:
+    80px 80px,  /* vertical grain spacing */
+    80px 80px,  /* horizontal grain spacing */
+    80px 80px;  /* crosshair spacing */
+
+  background-position: 0 0;
+  background-attachment: local !important;
+}
+
