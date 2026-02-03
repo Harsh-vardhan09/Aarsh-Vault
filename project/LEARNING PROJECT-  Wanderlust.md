@@ -344,7 +344,7 @@ app.use(session(sessionsOptions));
 - To authenticate user we use `authenticate()` which is a static method added by default  mongoose.
 
 ```js
-//we need session for user authentication so we use passport after session
+//we need session for user authentication so we use passport after session.
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -357,7 +357,6 @@ passport.deserializeUser(User.deserializeUser());
 ```
  *To store data of user in session is serialization and to unstore it is deserialization.*
 
-
 ## Signup User:-
 
 - `GET /signup` -> signup form
@@ -368,3 +367,71 @@ passport.deserializeUser(User.deserializeUser());
 - `POST /login` -> to authenticate user if exist using `passport.authenticate()`
 
 - *`passport.authenticate()` is middleware which will authenticate the request. By default, when authentication succeeds, the `req.user` property is set to the authenticated user, a login session is established, and the next function in the stack is called.*
+
+## Connecting Login Route:-
+- How to check user is logged in
+- Connecting so that only authenticated user can add listings and review.
+- `req.isAuthticated()` //passport Method
+## Logout User:-
+- `GET /Logout`
+
+## Add Styling:-
+- Passport save user data in `req.user` if user is undefined its not logged in.
+- if there is object user is logged in.
+- if not logged in undefined-> signup, login
+- if logged in object-> log out in req.user
+
+```html
+<% if(!currUser){
+          <a class="nav-link" href="/signup">Sign Up</a>
+         <a class="nav-link" href="/Login">Log In</a>
+        <% } %>
+        <% if(currUser){
+          <a class="nav-link" href="/logout">Log Out</a>
+        <% } %>
+```
+
+*Here the currUser is using `req.user` in `res.locals` in app.js*
+
+
+## Login after signup:-
+- Passport login method automatically establishes a login session .
+- we can invoke login to automatically login a user.
+```js
+req.login(user, function(err) { 
+if (err) {
+ return next(err); 
+ }
+return res.redirect('/users/' + req.user.username); });
+```
+
+When the login operation completes, `user` will be assigned to `req.user`.
+
+*Note: `passport.authenticate()` middleware invokes `req.login()` automatically. This function is primarily used when users sign up, during which `req.login()` can be invoked to automatically log in the newly registered user.*
+
+
+## Post-login Page:-
+- The moment user logins
+- After login-> redirects to original path
+
+```js
+console.log(req.path,"..",req.originalUrl);
+```
+- *This will print the path and original url of the path we were trying to access*
+- *req object stores alot of data about all these things*
+- - ***but passport deletes sessions the moment it logins.
+
+```js
+module.exports.saveRedirectUrl=(req,res,next)=>{
+    if(req.session.redirectUrl){   
+		res.locals.redirectUrl=req.session.redirectUrl;
+    }
+    next();
+}
+```
+
+
+## Listing Owner:-
+
+- Authorization for listing owner
+- So only allow create, delete, edit for owner
