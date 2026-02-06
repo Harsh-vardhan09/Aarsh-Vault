@@ -1,7 +1,8 @@
 
-[[#phase 1]]
-[[#Phase 2 -]]
+[[#phase 1 Structure]]
+[[#Phase 2 User And Review]]
 [[#USER Model -]]
+[[#Phase -3 Deployment]]
 
 ---
 
@@ -12,7 +13,7 @@
 
 ---
 
-# phase 1
+# phase 1 : Structure
 
 - creating Airbnb type site frontend for the listings.
 - creating listing for the  website
@@ -23,7 +24,7 @@
 *REST API set up* 
 
 ### model-listing
-- title-sting
+- title-string
 - description-string
 - image- URL
 - price -number
@@ -31,8 +32,8 @@
 - country-string
 
 #### index route
-- GET /listing ->all listing
-- GET/listing/:id(show)->specific listing data(view)
+- `GET /listing` ->all listing
+- `GET/listing/:id(show)`->specific listing data(view)
   
 ```js
   toLocaleString("we pass the region we want");
@@ -41,17 +42,17 @@
 
 ### Create: New & Create route
 
-- GET /listing/new ->form to create new route->
-- POST /listings
+- `GET /listing/new` ->form to create new route->
+- `POST /listings`
 
 ### Update: Edit and Update route
 
-- GET /listing/:id/edit -> edit the listing
-- PUT /listing/:id
+- `GET /listing/:id/edit` -> edit the listing
+- `PUT /listing/:id`
 
 ### Delete
 
-- DELELETE /listing/:id
+- `DELELETE /listing/:id`
 
 ## styling
 
@@ -195,7 +196,7 @@ if(!req.body.listing){
 
 
 ***********
-# Phase 2:-
+# Phase 2: User And Review
 
 ## Reviews Model:-
 
@@ -435,3 +436,98 @@ module.exports.saveRedirectUrl=(req,res,next)=>{
 
 - Authorization for listing owner
 - So only allow create, delete, edit for owner
+
+## Starting with authorization:-
+
+- Hide Delete and edit button if its not the user who created the listing.
+- To do this we will check
+	- listing owner
+	- user who want to edit/delete
+```js
+if(currUser && currUser._id.equals(listing.owner._id)){
+	//putting the code we want to hide here
+}
+```
+### Setting authorization:-
+##### For listings:-
+- we use authorization for the listing
+```js
+module.exports.isOwner = async (req, res, next) => {
+
+  let {id}=req.params;
+  let listing = await Listing.findById(id);
+  if (!listing.owner._id.equals(res.locals.currUser._id)) {
+    req.flash("error", "you are not the owner");
+    return res.redirect(`/listings/${id}`);
+  }
+  next();
+  
+};
+```
+
+#### For Reviews:-
+- Review ->author who created it
+- only that author has access to delete it.
+
+
+---
+# Phase -3 : Deployment
+
+## MVC:-
+- Model, View, Controller is design pattern.
+- Its way of writing code.
+- We divide the project into Model, Views, Controllers.
+- Model stores the Database component.
+- View stores what we render.
+- Controller stores the backend core functionality.
+
+## Implement design pattern for
+###  Listings:-
+- extending listings in the controller folder.
+
+```js
+module.exports.index=async (req, res) => {
+    const allListing = await Listing.find({});    res.render("listing/index.ejs", { allListing });
+}
+```
+
+### Reviews & Users:-
+- Using this in controller framework.
+
+### Router. route:-
+- Using this to reformat the path with same output to make it cleaner for use.
+- Like putting all the route with same `/signup` or `/login` with get, post, put, delete.
+
+```js
+router
+  .route("/signup")
+  
+ .get(userController.renderSignUpForm)
+.post(wrapAsync(userController.signup));
+
+  
+router
+  .route("/login")
+  
+.get(userController.renderLoginForm)
+.post(
+    saveRedirectUrl,
+    passport.authenticate("local", {
+      failureRedirect: "/login",
+      failureFlash: true,
+    }),   wrapAsync(userController.login),
+
+  );
+```
+
+### Re-Style Ratings:-
+- We use stars to show the value of the rating of the listings.
+- For that we use a GitHub library called  [Starability](https://github.com/LunarLogic/starability)
+- To present the input we use this inside the review.
+```html
+<p 
+class="starability-result card-text" 
+data-rating="<%= reviews.rating %>"
+>
+</p>
+```

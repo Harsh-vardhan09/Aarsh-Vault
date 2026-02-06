@@ -1,4 +1,4 @@
-1. [[GIT]]-                                                                                      17/01/2026
+1. [[GIT VERSION CONTROL]]-                                                                                      17/01/2026
 2. [[MIDDLEWARES]] -                                                                  17/01/2026
 3. [[NODE ERROR HANDLING]] -                                                 17/01/2026  
 4. [[EXPRESS]]-                                                                              19/01/2026   27/01/2026

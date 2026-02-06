@@ -1,4 +1,35 @@
 
+## Imports in express:-
+
+- When requiring in express if there are multiple `module.exports` in that file we have to De-structure it like an object so we can access the module we want.
+- This is **object de-structuring**.
+
+```js
+module.exports.validateReview = (req, res, next) => {
+   next();
+};
+
+module.exports.isLoggedIn = (req, res, next) => {
+   next();
+};
+```
+
+*This is same as this so we have to de-structure it to use*
+```js
+module.exports = {
+   validateReview: function(){},
+   isLoggedIn: function(){}
+};
+
+```
+
+```js
+  const {validateReview}=require("../middleware.js")
+```
+
+
+
+---
 ## Express Error handling:-
 
 [[NODE ERROR HANDLING]] *Look here for full reference* 
@@ -71,6 +102,23 @@ app.use("/post",posts);//for post
 
 ```js
 const router = express.Router({ mergeParams: true })
+```
+
+
+## Router. route:-
+- Returns an instance of a single route which you can then use to handle HTTP verbs with optional middleware.
+- Use `router.route()` to avoid duplicate route naming and thus typing errors.
+- Putting all the route with same header in same Router. route like get, post, put, delete.
+```js
+router
+  .route("/")
+  .get(wrapAsync(listingController.index)) //show all listings
+  .post(//new listing
+    isLoggedIn,
+    validateListing,
+    wrapAsync(listingController.createListing),
+  );
+  
 ```
 
 ---
