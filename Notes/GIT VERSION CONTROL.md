@@ -52,13 +52,33 @@
 
 
 
+---
+# Git: `--set-upstream` / Upstream Branch Explained:-
 
+>Git requires you to explicitly connect local branches to remote branches for safety and flexibility.
+ 
+- when we git push some times
 
+ ```
+ To push the current branch and set the remote as upstream,
+  use git push --set-upstream origin main
 
+ ```
 
+- *Git keeps local branch and remote branch seperate*
+- even if both are named ***main*** , Git does not automatically links them.
+- If no upstream (tracking branch) is set, Git doesn’t know:
+	- Which remote to push to
+	- Which branch to push to
+	- Which branch to pull from
+	
+- ***how to check the stream*** `git branch -vv`
+### Upstream Branch:-
+- An upstream branch is:
+ >The remote branch your local branch is connected to when we set upstream it knows where to push and pull from.
 
-
-
+*To put the upstream branch for the first time*
+`git push --set-upstream origin main`
 
 
 ---

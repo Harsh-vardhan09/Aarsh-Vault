@@ -5,6 +5,7 @@
 [[#Populate(Mongoose) -]]
 [[#Mongoose Middlewares -]]
 [[#6 Rules of Thumb for MongoDB Schema Design -]]
+[[#Mongo Atlas -]]
 
  - __In mongo relationship there can be can be a few type the one to many relationship.__
 	 1. __one to few__
@@ -358,3 +359,74 @@ __Here are some “rules of thumb” to guide you through these innumerable (but
 5. **Five:** Consider the read-to-write ratio with denormalization. A field that will mostly be read and only seldom updated is a good candidate for denormalization. If you denormalize a field that is updated frequently then the extra work of finding and updating all the instances of redundant data is likely to overwhelm the savings that you get from denormalization.
     
 6. **Six:** As always with MongoDB, how you model your data depends entirely on your particular application’s data access patterns. You want to structure your data to match the ways that your application queries and updates it.
+
+---
+
+# Mongo Atlas:-
+
+- Cloud database Service.
+- We need to save the database on cloud.
+- We could use others like Prisma, other dbs
+- Deploy a multi-cloud database.
+- This is shared storage given for free.
+### Clusters:-
+
+- **A MongoDB Atlas cluster is a cloud-managed group of MongoDB servers that stores data and provides scalability, replication, and high availability.**
+
+- A **cluster** in MongoDB Atlas is a **managed group of servers** that:
+	- store your MongoDB data
+	- handle reads & writes
+	- replicate data for safety
+	- scale when traffic grows
+	
+- We can create online database cluster.
+- We can create a cluster with the name of db and connect it with the project, compass, shell.
+- This will give password and id which we need to connect and deploy
+### Mongo Session store:-
+- We use this for saving session to push code.
+- Unlike the session for local.storage which is made for development phase.
+- In mongo session we first install it and then we use it to store session in our atlas
+- We can add many attributes in session in object form here we are using.
+- ***TouchAfter*** is used so that whenever the some request happens it doesn't write the db. It will write automatically when some change happens in db.
+
+```js
+const session = require('express-session');
+const MongoStore = require('connect-mongo');
+
+const store= MongoStore.default.create({
+  mongoUrl:dbUrl,
+  crypto:{
+    secret:"mysupersecretcode"
+  },
+  touchAfter:24*60*60,//It controls **how often an existing session is updated (“touched”) in MongoDB**, even if the session data hasn’t changed.
+});
+
+  
+
+store.on("error",()=>{
+  console.log("Error in Mongo session store",err)
+});
+
+const sessionsOptions={
+   store,
+   secret:"mysupersecretcode",
+   resave:false,
+   saveUninitialized:true,
+   cookie:{
+    expires:Date.now()+ 7 * 24 * 60 * 60 * 100,
+    maxAge:7 * 24 * 60 * 60 * 100,
+    httpOnly:true
+   }
+}
+```
+
+*As it has been upgraded from common JS to works for imports, Here we are using default as Mongo-connect sends a object inside which inside default is the create function which we need*
+
+*`connect-mongo` is being loaded as an **ESM default export**, so what you actually get is something like:*
+```js
+{
+  default: [Function: MongoStore]
+}
+
+```
+

@@ -2,7 +2,8 @@
 [[#phase 1 Structure]]
 [[#Phase 2 User And Review]]
 [[#USER Model -]]
-[[#Phase -3 Deployment]]
+[[#Phase -3 Deployment
+[[#Deployment(End) -]]
 
 ---
 
@@ -531,3 +532,219 @@ data-rating="<%= reviews.rating %>"
 >
 </p>
 ```
+
+## Image Upload:-
+
+- Right now we can't upload image:-
+	1. as our database can't save files.
+	2. We cant send files through backend.
+- To make our form capable of sending files.
+- we will save the images on cloud not on database.
+- We will use the free version of some third party service. 
+- This will give a URL to access the image.
+- Then we will save the image link in the DB.
+### Manipulating form:-
+- We can't send the file as form sends URL encoded data.
+- To send files we add a new type called `enctype="multipart/form-data`
+- We add the type to file in the form.
+
+### Multer:-
+- Multer is a node.js middleware for handling `multipart/form-data`, which is primarily used for uploading files. It is written on top of busboy for maximum efficiency.
+
+- **NOTE**: Multer will not process any form which is not multipart (`multipart/form-data`).
+
+```js
+const multer  = require('multer')
+const upload = multer({ dest: 'uploads/' })
+
+app.post('/profile', upload.single('avatar'), function (req, res, next) {
+  // req.file is the `avatar` file
+  // req.body will hold the text fields, if there were any
+})
+```
+
+## Cloud setup:-
+- cloudinary & .env file
+- We use this to save the files using its credentials
+- we create `.env` to store environment variable which we don't share on github
+- In .env we save in key value pair.
+
+***NOTE: To access env file we use a npm package called dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`.
+
+
+```js
+if(process.env.NODE_env!="production"){
+  require('dotenv').config();
+}
+```
+*We don't want to use `dotenv` in production/deployment as we will use different method then.*
+
+### Store Files:-
+- Multer store cloudinary
+- `npm i cloudinary multer-storage-cloudinary`
+- here these are two packages called cloudinary and multer-storage-cloudinary
+- To do this we need some credentials and some logic.
+```js
+const cloudinary=require('cloudinary').v2;
+const {CloudinaryStorage}=require('multer-storage-cloudinary');
+
+cloudinary.config({
+    cloud_name:process.env.CLOUD_NAME,
+api_key:process.env.CLOUD_API_KEY,api_secret:process.env.CLOUD_API_SECRET
+});
+
+const storage = new CloudinaryStorage({
+  cloudinary: cloudinary,
+  params: {
+    folder: 'wanderlust_DEV',
+    AllowedFormat:["png","jpg","jpeg"], // supports promises as well
+  },
+
+});
+
+  
+module.exports={
+    cloudinary,
+    storage,
+};
+```
+
+### Save the link in mongo:-
+- We update the schema and change where we get the data for url to save the data from.
+- We save the url that comes from file when we save to DB which sends to cloudinary.
+
+```js
+module.exports.createListing=async (req, res) => {
+
+  let url=req.file.path;
+  let filename=req.file.filename;
+  // console.log(url,"  ",filename);
+    const newListing = new Listing(req.body.listing);
+    newListing.owner = req.user._id;
+    newListing.image={url,filename};
+    await newListing.save();
+    req.flash("success", "New Listing Created");
+    res.redirect("/");
+}
+```
+
+
+## Edit Listing Image:-
+
+- We need to change edit form if we want to edit image which exists.
+- So we change the input type to the file and do the same as the new route.
+- Here we find the listing first and update which gets data by `req.body`.
+- To change the image we put the value of image to new URL and new filename.
+
+```js
+module.exports.updateListing=async (req, res) => {
+
+ let { id } = req.params;
+
+ let listing=await Listing.findByIdAndUpdate(id, { ...req.body.listing });
+    
+    if(typeof req.file!=="undefined"){
+      let url=req.file.path;
+      let filename=req.file.filename;
+      listing.image={url,filename};
+      await listing.save();
+    }
+
+    req.flash("success", "Listing Updated!");
+    res.redirect(`/listings/${id}`);
+
+}
+```
+*Here we check if the value of the `req.file` is undefined using `typeof` to only when it comes as false we update the file.*
+
+### Image preview before edit:-
+
+- We can do this by giving making the image preview.
+- But if we do this it will upload the original pic which may be of high quality but we don't need it.
+```html
+<div class="mb-3">
+          Original Listing Image <br>
+          <img src="<%=listing.image.url %>" alt="prevImage" style="height:30%;width:30%;border-radius: 10px;" />
+        </div>
+```
+
+- ***So we can use cloudinary image transformation to make it change.
+- We do this using the url change.
+
+```js
+let originalImage=listing.image.url;
+originalImage.replace("/upload","/upload/h_300,2_250");
+```
+
+## Getting Started with maps:-
+
+- We will put the maps of the place where it exist.
+- We can use any API.
+- We will use `MapBox` API free tier
+#### Using MapBox:-
+- *****Mapbox GL JS is a client-side JavaScript library for building web maps and web applications with Mapbox's modern mapping technology. You can use Mapbox GL JS to display Mapbox maps in a web browser or client, add user interactivity, and customize the map experience in your application.
+
+### Geocoding:-
+- Its the process of converting address(like street address) into geographic coordinates (like latitude and longitude)
+- which you can use to place markers on a map, or position the map.
+- There is geocoding api of mapbox.
+- GET `https://api.mapbox.com/search/geocode/v6/forward?q={search_text}`
+- Or we can use SDK(software development kit) to use from git.
+
+```js
+const mbxGeocoding = require("@mapbox/mapbox-sdk/services/geocoding");
+const mapToken = process.env.MAP_token;
+const geocodingClient = mbxGeocoding({ accessToken: mapToken }); 
+
+ let response=await  geocodingClient
+    .forwardGeocode({
+      query: req.body.listing.location,
+      limit: 1,
+    })
+    .send()
+    console.log(response.body.features[0].geometry);
+    return res.send("done")
+```
+
+#### Storing Coordinates:-
+- We store the coordinates using geoJSON.
+- [GeoJSON](http://geojson.org/) is a format for storing geographic points and polygons. 
+- MongoDB has excellent support for geospatial queries on GeoJSON objects. Let's take a look at how you can use Mongoose to store and query.
+- This is standary format for geographic data.
+
+```js
+{
+  "type" : "Point",
+  "coordinates" : [
+    -122.5,
+    37.7
+  ]
+}
+```
+
+#### Map Marker:-
+-  we use it to mark it 
+
+#### Marker Popup:-
+- It popup when we go to the marker.
+
+
+## Home Page UI:-
+- doing UI changes on front page adding icons and filter
+### Adding Filters:-
+- Adding category to the model of listings so where they can be classified.
+- We can use enum for those categories and give categories where it will filters according to it.
+### Adding Tax Switch:-
+- Adding switch to using js to allow it to make show or hide taxes.
+- Adding search bar in nav to allow search function.
+
+---
+# Deployment(End):-
+
+
+- we can use platform for deployment like:- 
+	- render
+	- netlify
+	- vercel
+	- hiroku
+	- cyclic ,etc
