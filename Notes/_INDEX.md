@@ -5,7 +5,9 @@
 5. [[NODE ERROR HANDLING#JOI Schema Validation -]]             20/01/2026
 6. [[MONGODB]] (Atlas added)                                                     22/01/2026   9/02/2026
 7. [[SQL]]                       
-8. [[STATE PROTOCOL]]                                                                  30/01/2026
+8. [[REQUEST HTTP]]                                                                  30/01/2026
 9. [[AUTH]]                                                                                      02/02/2026
 10. [[REDUX]]                                                                                 9/02/2026
-11. SYSTEM DESIGN(LLD,HLD PATTERNS)
+11. [[TAILWIND CSS]]                                                                    13/02/2026
+12. [[REQUEST HTTP]]                                                                  14/02/2026
+13. SYSTEM DESIGN(LLD,HLD PATTERNS)
