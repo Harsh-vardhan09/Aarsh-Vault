@@ -59,11 +59,63 @@
 	3. inline Block
 	4. none
 	5. flex/Grid
+
+---
 ## Media-query:-
 - These allows you to use for responsiveness.
 - We use previously defined responsive settings in the tailwind for modifier.
 - `max-sm`
+### *Min-width breakpoint(Mobile-first):-
 
+```html
+<div class="sm:bg-red-500">
+```
+*This means apply this on screens of 640px and larger*
+
+```css
+@media (min-width: 640px) {
+  .sm\:bg-red-500 {
+    background-color: #ef4444;
+  }
+}
+```
+***So:
+- Default styles = mobile (below 640px)
+- `sm:` = tablets and up (≥ 640px)
+- `md:` = ≥ 768px
+- `lg:` = ≥ 1024px
+
+### *Max-Width breakpoint(Desktop-first style):-*
+
+```html
+<div class="max-sm:bg-blue-500">
+```
+*This means apply this style on screens smaller than 640px.*
+```css
+@media (max-width: 639px) {
+  .max-sm\:bg-blue-500 {
+    background-color: #3b82f6;
+  }
+}
+```
+
+#### 🔥Visual Comparison:-
+
+| Prefix    | Media Query        | Applies To   |
+| --------- | ------------------ | ------------ |
+| `sm:`     | `min-width: 640px` | 640px and up |
+| `max-sm:` | `max-width: 639px` | Below 640px  |
+### When To Use Each?
+
+##### Use `sm:` (recommended, most common)
+✔ When following mobile-first design  
+✔ Set base styles first, then enhance for bigger screens
+
+#### Use `max-sm:`
+✔ When you want a style only for small screens  
+✔ When overriding desktop styles specifically for mobile
+
+---
 ## Pseudo-Classes:-
 - we can give pseudo classes like hover, Active, Nth element.
 - Using focus and hover is directly use this
@@ -89,7 +141,9 @@
 
 *making a new .cards class in main CSS file to use in the other file with same class name.*
 
+---
 ## NOTES:-
 - **We are writing inline**: we are not just using classes for each of the element.
 - **How to remember**: you will get muscle memory for the use of tailwind.
 - USE DOCS 
+   

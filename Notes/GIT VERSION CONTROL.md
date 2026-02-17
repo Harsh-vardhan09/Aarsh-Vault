@@ -53,6 +53,16 @@
 
 
 ---
+```git
+echo "# Nike-Site" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Harsh-vardhan09/Nike-Site.git
+git push -u origin main
+```
+---
 # Git: `--set-upstream` / Upstream Branch Explained:-
 
 >Git requires you to explicitly connect local branches to remote branches for safety and flexibility.
