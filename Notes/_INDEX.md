@@ -10,4 +10,5 @@
 10. [[REDUX]]                                                                                 9/02/2026
 11. [[TAILWIND CSS]]                                                                    13/02/2026
 12. [[HTTP PROTOCOLS]]                                                                  14/02/2026
-13. SYSTEM DESIGN(LLD,HLD PATTERNS)
+13. [[GIT Commands]]                                                                    19/02/2026
+14. SYSTEM DESIGN(LLD,HLD PATTERNS)
