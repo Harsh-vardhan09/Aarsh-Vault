@@ -22,7 +22,9 @@
 - one user can create multiple posts on Instagram.
 - 1 X n relationship.
 
-![[Pasted image 20260121233755.png]]
+
+
+![[SQL-Draw#^frame=L_IfvsGjoyqzZbOrhsh61|800]]
 
 ---
 ### Many to Many:-
@@ -30,5 +32,5 @@
 - Many data points in one table can be interrelated to multiple data points on another table.
 - Students can have many subjects and each subject can have many students.
 
-![[Pasted image 20260121234602.png]]
+![[SQL-Draw#^frame=1reGc5HGejRzZoRCMVLOd|800]]
 

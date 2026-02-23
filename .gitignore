@@ -11,3 +11,9 @@ Thumbs.db
 # Node / build stuff (if any)
 node_modules/
 dist/
+
+
+# password file
+
+password.md
+mental state.md
