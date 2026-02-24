@@ -1,3 +1,4 @@
+
 ## SQL Relationship:-
 
 - In SQL we establish relationship using foreign key.

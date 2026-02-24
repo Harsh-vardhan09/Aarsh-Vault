@@ -163,7 +163,7 @@ JavaScript = Implementation
 function greet7(user:{
     name:string,
     age:number,
-    address:{
+    address?:{
         streetName:string,
         city:string
     }
@@ -171,7 +171,7 @@ function greet7(user:{
     console.log(user.name);
 }
 ```
-
+*this makes the address optional which means it can exist or not.*
 ## Interfaces in TypeScript:-
 
 - ***In Above,  we have to repeat the same object datatypes again and again
@@ -195,10 +195,96 @@ function legal(user:userType){
 }
 ```
 
+
+### Implementing interfaces as class:-
+
+- we can implement interfaces as class.
+- An interface can implement an object directly.
+
+```ts
+interface People{
+    name:string,
+    age:number,
+    greet:()=>string //this is a function
+    greet2?():string 
+}
+let person:People={
+    name:"aarsh",
+    age:21,
+    greet:()=>{
+        return "hi"
+    }
+}
+
+let greeting =person.greet();
+console.log(greeting);
+
+```
+
+- ***We can use interfaces in TypeScript to create both object or class.
+- ***In typescript we can also create that can implement the people interface.
+
+
+![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=OZSDtncgRYihZDuxdM4PA|70%]]
+
+```ts
+interface User3{
+    name:string,
+    age:number,
+    isLegal():boolean;
+}
+
+class Manager implements User3{
+    name:string;
+    age:number;    
+    constructor(name:string,age:number){
+        this.name=name;
+        this.age=age;
+    }
+    isLegal(): boolean {
+        return this.age>18
+    }
+}
+
+```
+*Implements means that the key attribute of People and implement it myself*
+*Whenever a new manager assign the name and age to that variable for new.*
+
+
+### Abstract class:-
+
+- we can implement abstract class 
+- Its very similar to interface
+- Abstract classes can have an default implementation but interfaces cannot.
+```ts
+abstract class Users{
+    name:string;
+    constructor(name:string){
+        this.name=name
+    }
+    abstract greet:()=> string;
+    hello(){
+        console.log("hi there");
+    }
+}
+class Employees extends Users{
+    name:string;
+    constructor(name:string){
+        super(name)
+        this.name=name
+    }
+    greet(){
+        return "hi" + this.name
+    }
+}
+```
+
+
 ## Types Datatypes in TS:-
 
 - Very similar to interface.
 - Types let you `aggregate` data together.
+- We can't implement types like interfaces.
 - But type lets you do a few other things:-
 	- **Union: Types lets you union datatypes for use.
 	- **Intersection: what if you create a type that has every property of multiple types/interfaces 
@@ -232,3 +318,85 @@ let t:TeamLead={
 }
 ```
 
+#### Union:-
+- It can have either one or the both properties.
+```ts
+type GoodUser={
+   name:string,
+    gift:string
+}
+
+type BadUser={
+    name:string,
+    ip:string
+}
+
+type NewUser=GoodUser | BadUser;
+
+const newUser:NewUser={
+    name:"aarsh",
+    ip:"asdas",
+}
+```
+
+#### Intersection:-
+- what if you want to create a type that has every property of multiple types/interface
+```ts
+type Employee={
+    name:string,
+    startDate:Date,
+}
+
+type Managers={
+    name:string,
+    department:string
+}
+
+  
+type TeamLead= Employee & Managers;
+  
+const teamLead:TeamLead={
+    name:"aarsh", 
+    startDate:new Date(),
+    department:"It"
+}
+```
+
+
+![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=dZf_9QAYWtiN53KKouON_]]
+
+
+## NOTE:
+
+![[Pasted image 20260225023447.png|100%]]
+
+*when we do & so both the property of both type so it should be union.
+but in TS type is a set of values. so there is an infinite value of values where it must fulfill these requirement but could also have more.
+Since TS has open types not sealed types
+when both intersect the value where both follow there rule in the types plus something more
+
+*In union where all values of either 
+so it can have all the value of value of either
+
+![[Pasted image 20260225024350.png]]
+
+
+---
+##  Arrays in TS:-
+
+- if you want to access arrays in typescript, its simple as adding a `[]` annotation next to the type.
+
+```ts
+interface Addresses{
+    city:string,
+    pincode:string
+}
+
+interface Users4{
+    name:string,
+    age:number,
+    addresses:Address[]
+}
+```
+
+*A person can have multiple addresses so we use an array for it.*
