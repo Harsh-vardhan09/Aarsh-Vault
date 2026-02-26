@@ -400,3 +400,13 @@ interface Users4{
 ```
 
 *A person can have multiple addresses so we use an array for it.*
+
+---
+## ENUM:
+
+- 
+
+---
+## Generics:
+
+- 
