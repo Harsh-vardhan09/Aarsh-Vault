@@ -53,6 +53,7 @@ TypesScript was introduced as a new languages to add types on top of javaScript.
 ```bash
 npm init -y
 npm install typescript %%  %%
+npx tsc --init
 npx tsc -b` 
 ```
 ---

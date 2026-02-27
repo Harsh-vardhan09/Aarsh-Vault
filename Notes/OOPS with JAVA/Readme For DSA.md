@@ -24,3 +24,25 @@
 }
 ```
 
+---
+## Complexity:
+
+- **Time complexity: its the function that gives us the relationship about the time that grows as the input grows.
+	`O(1)<O(logn)<O(nlogn)<O(n)<O(n^2)`
+	- we only care about worst case complexity since it its good for the worst case it will perform good for best case.
+- **Space Complexity: this is the main and auxiliary space taken by an algo to solve a problem. 
+
+### Recursion complexity:-
+
+- This is the space taken there are two types of recursion:-
+	- linear recursion - fibonacci
+	- Divide and conquer - binary search 
+- *For the divide and conquer there are many method to find time complexity *
+	1. plug and chuck
+	2. tree 
+	3. masters method
+	4. Akra bazzi
+
+***
+### NP Problems:-
+- 
