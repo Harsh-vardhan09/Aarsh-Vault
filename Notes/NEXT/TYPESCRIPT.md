@@ -405,9 +405,75 @@ interface Users4{
 ---
 ## ENUM:
 
-- 
+- This allows us to store constants or key word and assign them an numeric value.
+- This allows us to define named constants instead of using const to make them
+```ts
+enum FruitPrices{
+    applePrice,
+    peachPrice,
+    bananaPrice
+}
 
+FruitPrices.applePrice=12;
+//gives error that it cannot be updated since its read only
+const fruitOne=FruitPrices.applePrice;
+
+const fruitTwo=FruitPrices.bananaPrice;
+
+console.log(fruitOne);
+console.log(fruitTwo);
+```
+
+*if we assign a value to the enum it will take the next enums according to the index after it.*
+
+### String Enums:
+- we can make the Enums as string values and it will not be updatable.
+- While string Enums don’t have auto-incrementing behavior, string Enums have the benefit that they “serialize” well.
+
+### Heterogenous Enums:
+- Technically Enums can be mixed with string and numeric members, but it’s not clear why you would ever want to do so:
+```ts
+enum BooleanLikeHeterogeneousEnum {
+	No = 0,
+	Yes = "YES",
+}
+```
 ---
 ## Generics:
 
-- 
+- Generics are like placeholder for types.
+- They allow you to write functions, classes, or interfaces that can work with multiple types without losing type safety.
+- It allows reusable component that can work over variety of types rather than a single one.
+-  we use this for API calls, forms, state management. 
+```ts
+function wrapInArray<T>(item:T):T[]{
+    return [item]
+}
+
+wrapInArray("masala");
+wrapInArray(55);
+wrapInArray({flavour:"vanilla"});
+  
+
+function pair<A,B>(a:A,b:B):[A,B]{
+    return [a,b];
+}
+
+
+pair("masala",20);
+pair("hello",{flavour:"vanilla"});
+
+interface Box<T>{
+    content:T
+}
+
+  
+const StringBox:Box<String>={content:"hello"};
+const numberBox:Box<number>={content:10};
+
+  
+interface ApiResponse<T>{
+    status:number,
+    data:T
+}
+```
