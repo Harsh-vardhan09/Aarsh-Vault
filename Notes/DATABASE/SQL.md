@@ -1,4 +1,3 @@
-
 ## SQL Relationship:-
 
 - In SQL we establish relationship using foreign key.
@@ -15,7 +14,7 @@
 - In one its primary key on other its foreign key.
 - 1X1 relationship.
 
-![[one to one.png]]
+![[one to one.png|500]]
 
 ---
 ### One to Many:-
@@ -23,9 +22,7 @@
 - one user can create multiple posts on Instagram.
 - 1 X n relationship.
 
-
-
-![[SQL-Draw#^frame=L_IfvsGjoyqzZbOrhsh61|800]]
+![[Excalidraw/SQL-Draw.md#^frame=4HKwD0I-xkeka39-t4g1h]]
 
 ---
 ### Many to Many:-
@@ -33,5 +30,5 @@
 - Many data points in one table can be interrelated to multiple data points on another table.
 - Students can have many subjects and each subject can have many students.
 
-![[SQL-Draw#^frame=1reGc5HGejRzZoRCMVLOd|800]]
+![[SQL-Draw#^frame=1reGc5HGejRzZoRCMVLOd|900]]
 
