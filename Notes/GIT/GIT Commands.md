@@ -220,3 +220,20 @@ build/*
 ```
 
 ***
+## Git alias:-
+
+
+If you plan to do this often, you could also create a **git alias** like:
+
+```bash
+git config --global alias.cdate '!git commit -m "$(date +%Y-%m-%d)" '
+```
+
+```bash
+git config --global alias.cdate '!f() { git commit -m "$* $(date +%Y-%m-%d)"; }; f'
+```
+Then just run:
+
+```bash
+git cdate "message"
+```

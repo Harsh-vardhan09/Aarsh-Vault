@@ -3,7 +3,7 @@
   "enabledCssSnippets": [
     "graph-background"
   ],
-  "baseFontSizeAction": true,
+  "baseFontSizeAction": false,
   "theme": "system",
-  "baseFontSize": 19
+  "baseFontSize": 18
 }

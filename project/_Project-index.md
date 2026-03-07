@@ -11,4 +11,6 @@
 | Nike-Website                      | 13/02/2026 |            |
 | [[Imaginaryx]]                    | 19/02/2026 | 21/02/2026 |
 | [[Friendora]]                     | 22/02/2026 |            |
+| [[StockSim]]                      | 04/03/2026 |            |
+| [[SECOND BRAIN APP]]              | 01/03/2026 |            |
 | [[CertiTrust]]                    |            |            |
