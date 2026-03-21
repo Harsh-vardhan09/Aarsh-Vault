@@ -115,6 +115,11 @@ onClick={()=>toast.promise(handleCreateStory(),{
         })}
 ```
 
+### *Server*
+
+#### Inngest:
+- this helps in batch processing, queue and background jobs and cron jobs
+
 ---
 
 ### Important:-
@@ -154,8 +159,15 @@ messages.map((message, index) => (
 *Here the index is assigned by JS itself.*
 
 
+#### Inngest error:
+
+- *There was an problem in connecting inngest to the clerk clerk was sending the sessions but the inngest was not holding a trigger to it due  to  naming and writing technique*
+- *Used Triggers keyword for the trigger renamed the id to hard refresh it make sure the naming of the *
+
 ---
 #### Author
 *Aarsh-HV*
 
 
+
+  
