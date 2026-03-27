@@ -16,5 +16,6 @@
 | [[GIT Commands]]                                | 19/02/2026 |            |
 | [[TYPESCRIPT]]                                  | 23/02/2026 |            |
 | [[TYPESCRIPT-2]]                                | 01/03/2026 |            |
-| [[JWT AUTH]]                              | 04/03/2026 |            |
+| [[JWT AUTH]]                                    | 04/03/2026 |            |
+| [[VALIDATION]]                                         | 27/03/2026 |            |
 SYSTEM DESIGN(LLD,HLD PATTERNS)
