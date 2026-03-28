@@ -21,11 +21,25 @@
 - MongoDB
 - CLOUDINARY
 - CORS
-
+- Image Kit
+- Clerk/Express
+- NodeMailer
 
 
 ---
 ## 📂 Project Structure
+
+```bash
+Zingle/ # MERN full stack social media
+│
+├──  client/        # Frontend (React + Vite + tailwind)
+│   
+├──  server/         # Backend (Node,Express,MongoDB,Clerk)
+|
+├──  Package.json
+├──  README.md
+├── .gitignore
+```
 
 #### *Client*
 ```bash
@@ -35,29 +49,46 @@ Zingle/
 │   ├── src/
 │   │   ├── assets/       # Images, icons, Constatants
 |	|   |    └── assets.js
-|   |   |            
+|	|   | 
+|	|   | 
+│   │   ├── api/       # redux store for storing the reducers
+|	|   |    └── store.js
+|   |   |   
+│   │   ├── app/       # axios file for calling base url
+|	|   |    └── axios.js
+|	|   | 
+│   │   ├── features/  
+|   |   |     ├── user/ 
+|	|   |     |     └──userSlice.js # redux actions reducer file
+|   |   |     ├── connections /   
+|   |   |     |       └── connectionSlice.js
+|   |   |     ├── message/
+|   |   |           └── messageSlice.js
+|   |   |    
 │   │   ├── components/   
-|   |   |    ├── Loading.jsx
-|	|   |    ├── MenuItem.jsx
-|   |   |    ├── SideBar.jsx
-|   |   |    ├── StoriesBar.jsx
-|   |   |    ├── StoryModal.jsx
-|   |   |    ├── StoryViewer.jsx
-|   |   |    ├── PostCard.jsx
-|   |   |    ├──
-|   |   |    └── MenuItems.jsx
+|   |   |    ├── Loading
+|	|   |    ├── MenuItem
+|   |   |    ├── SideBar
+|   |   |    ├── StoriesBar
+|   |   |    ├── StoryModal
+|   |   |    ├── StoryViewer
+|   |   |    ├── PostCard
+|   |   |    ├── UserCard
+|   |   |    ├── UserProfile
+|   |   |    ├── Notification
+|   |   |    └── MenuItems
 |   |   |     
 │   │   ├── pages/       
 |   |   |   ├── index.js
-|   |   |   ├── ChatBox.jsx
-|   |   |   ├── Connections.jsx
-|   |   |   ├── Discover.jsx
-|   |   |   ├── Feed.jsx
-|   |   |   ├── Layout.jsx
-|   |   |   ├── Login.jsx
-|   |   |   ├── Messages.jsx
-|   |   |   ├── Profile.jsx
-|   |   |   └── CreatePost.jsx
+|   |   |   ├── ChatBox
+|   |   |   ├── Connections
+|   |   |   ├── Discover
+|   |   |   ├── Feed
+|   |   |   ├── Layout
+|   |   |   ├── Login
+|   |   |   ├── Messages
+|   |   |   ├── Profile
+|   |   |   └── CreatePost
 |   |   |
 │   │   ├── constants/    
 |   |   |   └──index.js # Static values
@@ -72,19 +103,41 @@ Zingle/
 |
 ├── server/
 |   |
-|   ├── mongodb
+|   ├── configs
 |   |    |
-|   |    ├── models
-|   |    |   ├──   # dummy data
-|   |    |   └──   #  mongoose Schema
-|   |    └──    # mongoDb connect
-|   |  
+|   |    ├── db.js           # connect db
+|   |    ├── multer.js       # multi-part form data        
+|   |    └── nodemailer.js
+|   | 
+|   ├── models
+|   |    |
+|   |    ├──  user.js         # user schema
+|   |    ├──  connections.js
+|   |    ├──  message.js
+|   |    ├──  post.js 
+|   |    └──  story.js
+|   | 
+|   ├── controllers
+|   |    |
+|   |    ├──  userController.js
+|   |    ├──  connectionController.js
+|   |    ├──  postController.js  
+|   |    ├──  storyController.js  
+|   |    └──  messageController.js  
+|   | 
+|   ├── middleware
+|   |    └── auth.js         # auth middleware
+|   | 
 |   ├── routes
-|   |    ├── 
-|   |    └── 
+|   |    ├── userRoutes.js
+|   |    ├── connectionRoutes.js
+|   |    ├── postRoutes.js
+|   |    ├── storyRoutes.js
+|   |    └── messageRoutes.js 
+|   | 
 |   |
-|   ├── index.js   # main server
-|   |
+|   ├── server.js            # main server
+|   ├── .env                 # enviroment variables
 │   └── package.json
 │
 ├──.gitignore
@@ -115,16 +168,27 @@ onClick={()=>toast.promise(handleCreateStory(),{
         })}
 ```
 
+#### REDUX:
+- using  it for state management and api call 
 ### *Server*
 
 #### Inngest:
 - this helps in batch processing, queue and background jobs and cron jobs
 
+#### Clerk/express:
+- This is used for auth update of the user in the backend 
+#### ImageKit:
+- This is an tool to turn the iamge into url change its size type and other things to use
+
+#### Nodemailer:
+- Nodemailer is the most popular email sending library for Node.js. It makes sending emails straightforward and secure, with zero runtime dependencies to manage.
+
 ---
 
 ### Important:-
 
-***Client***
+#### *Client*
+
 - *Here the `media.type` is the MIME type it can be anything image video null. `?` allows if it null it doesn't crash.*
 - *If the mime type starts with image like `image/png` , `image/jpeg` it gives true.*
 ```jsx
@@ -159,11 +223,32 @@ messages.map((message, index) => (
 *Here the index is assigned by JS itself.*
 
 
-#### Inngest error:
+### *Server*
+#### INNGEST error:
 
-- *There was an problem in connecting inngest to the clerk clerk was sending the sessions but the inngest was not holding a trigger to it due  to  naming and writing technique*
-- *Used Triggers keyword for the trigger renamed the id to hard refresh it make sure the naming of the *
+- *There was an problem in connecting INNGEST  to the clerk clerk was sending the sessions but the INNGEST was not holding a trigger to it due  to  naming and writing technique*
+- *Used Triggers keyword for the trigger , Renamed id to hard refresh it make sure the naming of the old is changed and the triggers are added in each of the path.*
+- *After the triggers are visible in the apps and the events the events start working.*
 
+#### Image Kit:
+- *Its documentation has changed and we don't need to create a separate file for its env it pulls it directly from there*
+- *There the path is changed to the source*
+- ***What is `src` (or old `path`) actually?
+> 	the relative path of your file inside ImageKit storage***
+
+
+#### Inngest CRON:
+- *You can create scheduled jobs using cron schedules within Inngest natively. Inngest's cron schedules also support timezones, allowing you to schedule work in whatever timezone you need work to run in.*
+
+```js
+const sendNotificationOfUnseenMessages = inngest.createFunction(
+  {
+    id: "send-unseen-messages-notification",
+    triggers: { cron: "TZ+America/New_York 0 9 * * *" },//everyday at 9 AM
+  },
+  async (params) => {},
+);
+```
 ---
 #### Author
 *Aarsh-HV*
