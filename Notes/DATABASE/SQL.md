@@ -32,3 +32,9 @@
 
 ![[SQL-Draw#^frame=1reGc5HGejRzZoRCMVLOd|900]]
 
+---
+
+
+- Select t1.col t,col11, t1.col t,col11, t1.col t,col22, 
+  FROM TABLE T1 INNER JOIN TABLE T2 ON
+  t1.col=t2.col
