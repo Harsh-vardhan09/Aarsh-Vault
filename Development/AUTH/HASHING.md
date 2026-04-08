@@ -1,6 +1,6 @@
 https://petal-estimate-4e9.notion.site/Databases-and-MongoDb-1017dfd107358065a996cda5ed89682e
 
- ![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=MgpeAJ6Iwi5MAwzJIMj4k|500]]
+ ![[Drawing 2026-02-23 23.56.15.excalidraw#^frame=MgpeAJ6Iwi5MAwzJIMj4k|500]]
 
 # Hashing Password:
 

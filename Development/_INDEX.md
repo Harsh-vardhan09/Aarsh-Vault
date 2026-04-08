@@ -18,4 +18,7 @@
 | [[TYPESCRIPT-2]]                                | 01/03/2026 |            |
 | [[JWT AUTH]]                                    | 04/03/2026 |            |
 | [[HASHING]]                                     | 27/03/2026 |            |
+| [[REACT-HOOK-FORM]]                             | 08/04/2026 |            |
+| [[REGEX]]                                       | 09/04/2026 |            |
+|                                                 |            |            |
 SYSTEM DESIGN(LLD,HLD PATTERNS)

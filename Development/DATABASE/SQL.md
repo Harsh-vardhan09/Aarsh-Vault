@@ -22,7 +22,7 @@
 - one user can create multiple posts on Instagram.
 - 1 X n relationship.
 
-![[Excalidraw/SQL-Draw.md#^frame=4HKwD0I-xkeka39-t4g1h]]
+![[SQL-Draw#^frame=4HKwD0I-xkeka39-t4g1h]]
 
 ---
 ### Many to Many:-

@@ -226,7 +226,7 @@ console.log(greeting);
 - ***In typescript we can also create that can implement the people interface.
 
 
-![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=OZSDtncgRYihZDuxdM4PA|70%]]
+![[Drawing 2026-02-23 23.56.15.excalidraw#^frame=OZSDtncgRYihZDuxdM4PA|70%]]
 
 ```ts
 interface User3{
@@ -364,7 +364,7 @@ const teamLead:TeamLead={
 ```
 
 
-![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=dZf_9QAYWtiN53KKouON_]]
+![[Drawing 2026-02-23 23.56.15.excalidraw#^frame=dZf_9QAYWtiN53KKouON_]]
 
 
 ## NOTE:

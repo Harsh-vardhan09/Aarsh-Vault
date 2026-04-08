@@ -13,6 +13,6 @@ And when the task is done the it can come back to the stack and weight for its t
 - It lets us to expose our code to internet for others to use on server.
 - We can use express to create a HTTP server.
 
-![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=7g8y2wdTq_EzARI9ZKM4w]]
+![[Drawing 2026-02-23 23.56.15.excalidraw#^frame=7g8y2wdTq_EzARI9ZKM4w]]
 
 

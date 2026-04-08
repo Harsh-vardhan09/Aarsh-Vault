@@ -6,7 +6,7 @@
 localhost:8080-> requesting -> localhost:5173
 ```
 
-![[Excalidraw/CORS-Draw.md#^frame=OfuXRGt6rLGFoFX1x5g6W|800]]
+![[CORS-Draw#^frame=OfuXRGt6rLGFoFX1x5g6W|800]]
 *CORS relies on a mechanism by which browsers make a "preflight" request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request.*
 
 *In the preflight,  the browser sends the headers that indicate the http method and header that will be used in the actual request*

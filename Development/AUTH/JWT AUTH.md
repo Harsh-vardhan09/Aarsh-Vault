@@ -12,7 +12,7 @@
 
 ### Auth workflow:
 
-![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=c_xIdIfX-pQ96pampNeNU|500]]
+![[Drawing 2026-02-23 23.56.15.excalidraw#^frame=c_xIdIfX-pQ96pampNeNU|500]]
 *these token gives us the persistent session*
 
 - The users comes to your website
@@ -50,7 +50,7 @@ app.use(express.json())
 #### Problem:-
 *The problem is that we need to send req to database every time the user want to hit an `Authenticated endpoint`*
 
-![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=tBsNwecDxJmqWVHlzIUVm|500]]
+![[Drawing 2026-02-23 23.56.15.excalidraw#^frame=tBsNwecDxJmqWVHlzIUVm|500]]
 
 
 ## JWT's:-
@@ -63,7 +63,7 @@ app.use(express.json())
 - Its encoded not encrypted
 
 
-![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=Z4QaKyW2s9dIm6rYg4Ym8|600]]
+![[Drawing 2026-02-23 23.56.15.excalidraw#^frame=Z4QaKyW2s9dIm6rYg4Ym8|600]]
 
 ```js
 npm i jsonwebtoken
@@ -89,7 +89,7 @@ They are issued by backend when you sign in.
 Anyone can create something similar but backend will reject it
 If you lose the original JWT, then it is a problem*
 
-![[Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md#^frame=5HYDJsTaMmKW8rOI7ecck]]
+![[Drawing 2026-02-23 23.56.15.excalidraw#^frame=5HYDJsTaMmKW8rOI7ecck]]
 
 ## Creating a JWT
 

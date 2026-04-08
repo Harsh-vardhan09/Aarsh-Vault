@@ -16,3 +16,5 @@
 		- backend and frontend connection
 		- Cache
 		- Case studies
+
+[Medium.com](https://medium.com/@himanshusingour7/how-i-learned-system-design-d7444d454367)

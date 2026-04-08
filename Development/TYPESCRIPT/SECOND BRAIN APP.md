@@ -63,7 +63,7 @@
 ---
 ## Schema 
 
-![[Excalidraw/Projects.md#^frame=uXRox2jDABxDLH2yjdwIe|80%]]
+![[Projects#^frame=uXRox2jDABxDLH2yjdwIe|80%]]
 
 ![[Pasted image 20260301235154.png]]
 1. Users table
