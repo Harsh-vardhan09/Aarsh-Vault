@@ -228,4 +228,5 @@ pip install -r requirements.txt
 ![[Pasted image 20260327235123.png]]
 ![[Pasted image 20260327235142.png]]
 
-![[Pasted image 20260328235713.png]]
+![[Pasted image 20260328235713.png]]![[Pasted image 20260409140720.png]]
+![[Pasted image 20260409140744.png]]

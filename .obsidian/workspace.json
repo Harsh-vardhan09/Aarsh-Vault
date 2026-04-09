@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "9d476d2c13b5fb51",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Development/AUTH/REGEX.md",
+                "bFile": "Development/AUTH/REGEX.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: REGEX  (Working Tree)"
+            }
+          },
+          {
             "id": "66b6d28d3558d138",
             "type": "leaf",
             "state": {
@@ -36,17 +50,57 @@
             }
           },
           {
-            "id": "ed283f68c4485e6a",
+            "id": "b1756c5c3aea0e0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/DATABASE/MONGODB.md",
+                "file": "project/completed/SECOND BRAIN APP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MONGODB"
+              "title": "SECOND BRAIN APP"
+            }
+          },
+          {
+            "id": "fd896aa06c52977c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/CertiTrust.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CertiTrust"
+            }
+          },
+          {
+            "id": "6f5dc9d2e7a6ea34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/GIT/GIT Commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GIT Commands"
+            }
+          },
+          {
+            "id": "ed283f68c4485e6a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20260225024350.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260225024350"
             }
           },
           {
@@ -61,34 +115,6 @@
               },
               "icon": "lucide-file",
               "title": "ZOD"
-            }
-          },
-          {
-            "id": "5e60974e4217e5cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/FRONTEND/REACT-HOOK-FORM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "REACT-HOOK-FORM"
-            }
-          },
-          {
-            "id": "082e29cfc27c1482",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/AUTH/REGEX.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "REGEX"
             }
           },
           {
@@ -111,15 +137,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VIBE-CODING/VIBE_CODING 102.md",
+                "file": "project/completed/Zingle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VIBE_CODING 102"
+              "title": "Zingle"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -290,43 +317,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67c5216984013a48",
+  "active": "9d476d2c13b5fb51",
   "lastOpenFiles": [
-    "Development/AUTH/REGEX.md",
     "Development/FRONTEND/REACT-HOOK-FORM.md",
+    "Development/_INDEX.md",
+    "project/_Project-index.md",
+    "Development/JS/REGEX.md",
+    "project/ATHLEAD-RESTRUCTING.md",
+    "images/Pasted image 20260409140744.png",
+    "images/Pasted image 20260409140720.png",
+    "project/CertiTrust.md",
+    "Development/GIT/GIT Commands.md",
+    "_Excalidraw/Projects.md",
+    "project/completed/SECOND BRAIN APP.md",
+    "images/Pasted image 20260301235154.png",
+    "images/Pasted image 20260205012414.png",
+    "images/Pasted image 20260203152317.png",
+    "images/Pasted image 20260202010848.png",
+    "images/Pasted image 20260130220111.png",
+    "images/Pasted image 20260127224323.png",
+    "images/Pasted image 20260121234602.png",
+    "images/Pasted image 20260121233755.png",
+    "Development/DATABASE/MONGODB.md",
+    "project/completed/Zingle.md",
+    "project/completed/Imaginaryx.md",
+    "project/Property-Management.md",
+    "VIBE-CODING/VIBE_CODING 102.md",
+    "Development/AUTH/ZOD.md",
     "Development/FRONTEND/TAILWIND CSS.md",
     "Development/JS/Axios vs Fetch.md",
     "Development/DATABASE/SQL.md",
-    "Development/AUTH/ZOD.md",
     "Development/AUTH/HASHING.md",
     "Development/AUTH/JWT AUTH.md",
-    "Development/DATABASE/MONGODB.md",
     "Development/FRONTEND/REDUX.md",
-    "Development/GIT/GIT Commands.md",
-    "project/ATHLEAD-RESTRUCTING.md",
-    "VIBE-CODING/VIBE_CODING 102.md",
     "Untitled/SYSTEM DESIGN.md",
-    "project/_Project-index.md",
-    "Development/_INDEX.md",
     "Untitled/SOME CODE.md",
     "README.GIT.md",
-    "images/Screenshot 2024-09-15 at 6.51.34 PM.png",
     "Development/BACKEND/Untitled.md",
-    "VIBE-CODING/VIBE_CODING 101.md",
-    "project/Property-Management.md",
-    "project/CertiTrust.md",
-    "project/node.md",
     "project/completed",
-    "Notes/JS/Untitled.md",
     "VIBE-CODING",
-    "Development/JS",
-    "Untitled/Password.md",
-    "Development/BACKEND/AUTH.md",
-    "images/Pasted image 20260327235142.png",
-    "images/Pasted image 20260227180642.png",
-    "images/Pasted image 20260328235713.png",
-    "images/Pasted image 20260327235123.png",
-    "images/Pasted image 20260326020642.png",
-    "images/Pasted image 20260326020612.png"
+    "Development/JS"
   ]
 }
