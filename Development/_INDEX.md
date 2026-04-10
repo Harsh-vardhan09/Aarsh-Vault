@@ -20,5 +20,6 @@
 | [[HASHING]]                                     | 27/03/2026 |            |
 | [[REACT-HOOK-FORM]]                             | 08/04/2026 |            |
 | [[REGEX]]                                       | 09/04/2026 |            |
-|                                                 |            |            |
+| [[WebSocket's]]                                 | 11/04/2026 |            |
+
 SYSTEM DESIGN(LLD,HLD PATTERNS)

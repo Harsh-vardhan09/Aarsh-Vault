@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "9d476d2c13b5fb51",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Development/AUTH/REGEX.md",
-                "bFile": "Development/AUTH/REGEX.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: REGEX  (Working Tree)"
-            }
-          },
-          {
             "id": "66b6d28d3558d138",
             "type": "leaf",
             "state": {
@@ -47,6 +33,74 @@
               },
               "icon": "lucide-file",
               "title": "_Project-index"
+            }
+          },
+          {
+            "id": "74fda16b54344334",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VIBE-CODING/VIBE_CODING 101.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VIBE_CODING 101"
+            }
+          },
+          {
+            "id": "a366ef9eef896a7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled/Password.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Password"
+            }
+          },
+          {
+            "id": "db14f4e08bbf7e56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/WEBSOCKET/WebSocket's.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WebSocket's"
+            }
+          },
+          {
+            "id": "e30a8ae26c59e91c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/WEBSOCKET/WebSocket's.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WebSocket's"
+            }
+          },
+          {
+            "id": "cc4553f0196014f4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-10 23.26.32.excalidraw"
             }
           },
           {
@@ -145,8 +199,7 @@
               "title": "Zingle"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -317,19 +370,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d476d2c13b5fb51",
+  "active": "67c5216984013a48",
   "lastOpenFiles": [
-    "Development/FRONTEND/REACT-HOOK-FORM.md",
-    "Development/_INDEX.md",
     "project/_Project-index.md",
+    "Development/_INDEX.md",
+    "WebSocket.md",
+    "Development/WEBSOCKET/WebSocket's.md",
+    "Development/WEBSOCKET/WebSocket for NODE.js.md",
+    "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md",
+    "project/completed/SECOND BRAIN APP.md",
+    "Development/WEBSOCKET",
+    "Untitled/Password.md",
+    "VIBE-CODING/VIBE_CODING 101.md",
+    "project/CertiTrust.md",
+    "Development/FRONTEND/REACT-HOOK-FORM.md",
     "Development/JS/REGEX.md",
     "project/ATHLEAD-RESTRUCTING.md",
     "images/Pasted image 20260409140744.png",
     "images/Pasted image 20260409140720.png",
-    "project/CertiTrust.md",
     "Development/GIT/GIT Commands.md",
     "_Excalidraw/Projects.md",
-    "project/completed/SECOND BRAIN APP.md",
     "images/Pasted image 20260301235154.png",
     "images/Pasted image 20260205012414.png",
     "images/Pasted image 20260203152317.png",
@@ -349,11 +409,6 @@
     "Development/DATABASE/SQL.md",
     "Development/AUTH/HASHING.md",
     "Development/AUTH/JWT AUTH.md",
-    "Development/FRONTEND/REDUX.md",
-    "Untitled/SYSTEM DESIGN.md",
-    "Untitled/SOME CODE.md",
-    "README.GIT.md",
-    "Development/BACKEND/Untitled.md",
     "project/completed",
     "VIBE-CODING",
     "Development/JS"
