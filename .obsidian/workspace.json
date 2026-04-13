@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "44ea759dfe516ad3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/CertiTrust.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CertiTrust"
+            }
+          },
+          {
             "id": "74fda16b54344334",
             "type": "leaf",
             "state": {
@@ -53,14 +67,15 @@
             "id": "a366ef9eef896a7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Untitled/Password.md",
-                "mode": "source",
-                "source": false
+                "aFile": "project/CertiTrust.md",
+                "bFile": "project/CertiTrust.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Password"
+              "icon": "diff",
+              "title": "Diff: CertiTrust  (Index)"
             }
           },
           {
@@ -75,6 +90,20 @@
               },
               "icon": "lucide-file",
               "title": "WebSocket's"
+            }
+          },
+          {
+            "id": "4c643f3b2ee88ebc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.GIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README.GIT"
             }
           },
           {
@@ -199,7 +228,8 @@
               "title": "Zingle"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -370,19 +400,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67c5216984013a48",
+  "active": "a366ef9eef896a7f",
   "lastOpenFiles": [
-    "project/_Project-index.md",
-    "Development/_INDEX.md",
+    "Untitled/Password.md",
+    "README.GIT.md",
     "WebSocket.md",
+    "project/CertiTrust.md",
+    "project/_Project-index.md",
+    "VIBE-CODING/VIBE_CODING 101.md",
+    "Development/_INDEX.md",
     "Development/WEBSOCKET/WebSocket's.md",
     "Development/WEBSOCKET/WebSocket for NODE.js.md",
     "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md",
     "project/completed/SECOND BRAIN APP.md",
     "Development/WEBSOCKET",
-    "Untitled/Password.md",
-    "VIBE-CODING/VIBE_CODING 101.md",
-    "project/CertiTrust.md",
     "Development/FRONTEND/REACT-HOOK-FORM.md",
     "Development/JS/REGEX.md",
     "project/ATHLEAD-RESTRUCTING.md",
@@ -408,7 +439,6 @@
     "Development/JS/Axios vs Fetch.md",
     "Development/DATABASE/SQL.md",
     "Development/AUTH/HASHING.md",
-    "Development/AUTH/JWT AUTH.md",
     "project/completed",
     "VIBE-CODING",
     "Development/JS"

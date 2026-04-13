@@ -2,7 +2,7 @@
 ## Tokenized Certificate Verification (Unique) 10/02/2026
 
 *Its a project about generating certificates. Now fake certificates are easy to make this app will allow authorized personal to generate the certificate and have it there it like an leetcode or github for certificate the certificate generated here will be tamperproof and only available here so recruters or people can see it similar to portfolio of certificates only
-
+``
 Like github a person can form id in it and become a member of community where they will have a dashboard where they can post there certificate and see the certificate of those they follow 
 
 like there are clubs hackathon which generate certificate but they are of no value as its easy to fake but on here a person can get access as a group and paste a template created from canva, or someplace else
