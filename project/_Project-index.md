@@ -14,4 +14,6 @@
 | [[StockSim]]                      | 04/03/2026 |            |
 | [[SECOND BRAIN APP]]              | 01/03/2026 | 08/04/2026 |
 | [[ATHLEAD-RESTRUCTING]]           | 09/03/2026 |            |
+| [[Aetheria]]                      | 11/04/2026 | 12/04/2026 |
+| Land-Chain                        | 13/04/2026 |            |
 | [[CertiTrust]]                    |            |            |
