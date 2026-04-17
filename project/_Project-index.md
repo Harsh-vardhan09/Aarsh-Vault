@@ -16,4 +16,5 @@
 | [[ATHLEAD-RESTRUCTING]]           | 09/03/2026 |            |
 | [[Aetheria]]                      | 11/04/2026 | 12/04/2026 |
 | Land-Chain                        | 13/04/2026 |            |
+| [[Softskill.canvas]]              | 15/04/2026 |            |
 | [[CertiTrust]]                    |            |            |

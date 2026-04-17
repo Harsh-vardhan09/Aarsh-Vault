@@ -1,4 +1,4 @@
-There are various libraries that let you create a ws server (similar to how `express` lets you create an HTTP server)
+There are various libraries that let you create a WS server (similar to how `express` lets you create an HTTP server)
 
 1. [https://www.npmjs.com/package/websocket](https://www.npmjs.com/package/websocket)
 2. [https://github.com/websockets/ws](https://github.com/websockets/ws)
@@ -117,3 +117,23 @@ wss.on('connection', function connection(ws) {
   });
 });
 ```
+
+---
+
+
+# Scaling ws servers   18/04/2026
+
+![[_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md#^frame=61OgFJVQgY9Wrso09YHFF|100%]]
+
+*In the real world, you’d want more than one websocket servers (Especially as your website gets more traffic)
+
+- The way to scale websocket servers usually happens by creating a `ws fleet`
+
+- There is usually a central layer behind it that `orchestrates` messages
+
+- ws servers are kept `stateless`
+
+***So we form connection of each of the websocket with each other
+
+![[Screenshot 2024-04-06 at 6.06.53 PM.png]]
+

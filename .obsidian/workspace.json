@@ -64,35 +64,7 @@
             }
           },
           {
-            "id": "db14f4e08bbf7e56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/WEBSOCKET/WebSocket's.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WebSocket's"
-            }
-          },
-          {
-            "id": "e30a8ae26c59e91c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "project/_Project-index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_Project-index"
-            }
-          },
-          {
-            "id": "8dd4d792967976a1",
+            "id": "a732ec9b2c15844b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,43 +78,34 @@
             }
           },
           {
-            "id": "cc4553f0196014f4",
+            "id": "8dd4d792967976a1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md"
+                "file": "project/Softskill.canvas",
+                "viewState": {
+                  "x": 20.776294536063048,
+                  "y": 64.70320560273346,
+                  "zoom": -0.02187569197686498
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-10 23.26.32.excalidraw"
+              "icon": "lucide-layout-dashboard",
+              "title": "Softskill"
             }
           },
           {
-            "id": "89d873245bf411dd",
+            "id": "22bedf9c7d6c914c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/AUTH/ZOD.md",
+                "file": "Development/CLOUD/AWS-Amazon Web Services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ZOD"
-            }
-          },
-          {
-            "id": "29d88133effca576",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "project/ATHLEAD-RESTRUCTING.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ATHLEAD-RESTRUCTING"
+              "title": "AWS-Amazon Web Services"
             }
           }
         ],
@@ -317,26 +280,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db14f4e08bbf7e56",
+  "active": "a732ec9b2c15844b",
   "lastOpenFiles": [
-    "Development/WEBSOCKET/WebSocket's.md",
-    "Development/WEBSOCKET/WebSocket for NODE.js.md",
     "project/_Project-index.md",
+    "Development/_INDEX.md",
+    "Development/WEBSOCKET/WebSocket for NODE.js.md",
+    "_Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md",
+    "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md",
+    "images/Screenshot 2024-04-06 at 6.06.53 PM.png",
+    "README.GIT.md",
+    "project/Softskill.canvas",
+    "Development/WEBSOCKET/WebSocket's.md",
+    "Development/CLOUD/AWS-Amazon Web Services.md",
+    "Development/CLOUD",
+    "project/StockSim.md",
+    "_Excalidraw/Drawing 2026-04-15 11.03.02.excalidraw.md",
+    "_Excalidraw/Drawing 2026-04-15 12.42.16.excalidraw.md",
+    "_Excalidraw/Untitled.md",
+    "images/Pasted image 20260415112606.png",
+    "_Excalidraw/Untitled.base",
     "project/ATHLEAD-RESTRUCTING.md",
     "project/Aetheria.md",
     "Untitled/Password.md",
     "VIBE-CODING/VIBE_CODING 102.md",
     "VIBE-CODING/VIBE_CODING 101.md",
-    "README.GIT.md",
     "project/completed/Zingle.md",
     "Development/AUTH/ZOD.md",
     "images/Pasted image 20260225024350.png",
     "Development/GIT/GIT Commands.md",
     "project/CertiTrust.md",
     "project/completed/SECOND BRAIN APP.md",
-    "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md",
     "WebSocket.md",
-    "Development/_INDEX.md",
     "Development/WEBSOCKET",
     "Development/FRONTEND/REACT-HOOK-FORM.md",
     "Development/JS/REGEX.md",
@@ -348,14 +322,6 @@
     "images/Pasted image 20260203152317.png",
     "images/Pasted image 20260202010848.png",
     "images/Pasted image 20260130220111.png",
-    "images/Pasted image 20260127224323.png",
-    "images/Pasted image 20260121234602.png",
-    "Development/DATABASE/MONGODB.md",
-    "project/completed/Imaginaryx.md",
-    "project/Property-Management.md",
-    "Development/FRONTEND/TAILWIND CSS.md",
-    "Development/JS/Axios vs Fetch.md",
-    "Development/DATABASE/SQL.md",
     "project/completed",
     "VIBE-CODING",
     "Development/JS"

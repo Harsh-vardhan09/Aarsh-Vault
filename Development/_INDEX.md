@@ -21,5 +21,6 @@
 | [[REACT-HOOK-FORM]]                             | 08/04/2026 |            |
 | [[REGEX]]                                       | 09/04/2026 |            |
 | [[WebSocket's]]                                 | 11/04/2026 |            |
+| [[WebSocket for NODE.js]]                       | 15/04/2026 |            |
 
 SYSTEM DESIGN(LLD,HLD PATTERNS)
