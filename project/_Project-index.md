@@ -17,4 +17,5 @@
 | [[Aetheria]]                      | 11/04/2026 | 12/04/2026 |
 | Land-Chain                        | 13/04/2026 |            |
 | [[Softskill.canvas]]              | 15/04/2026 |            |
+| [[ChatApp]]                       | 18/04/2026 |            |
 | [[CertiTrust]]                    |            |            |

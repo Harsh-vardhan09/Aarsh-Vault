@@ -1,3 +1,4 @@
+##### [Harkirat Notes](https://petal-estimate-4e9.notion.site/WebSockets-1477dfd10735802982becc925074b5f0)
 
 *WebSocket provide a way to establish a persistent, full duplex communication channel over a single TCP connection between the client(Typically a web browser) and the server.*
 

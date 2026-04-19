@@ -64,17 +64,31 @@
             }
           },
           {
-            "id": "a732ec9b2c15844b",
+            "id": "c37f3d851494d461",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/WEBSOCKET/WebSocket for NODE.js.md",
+                "file": "Development/WEBSOCKET/WebSocket's.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WebSocket for NODE.js"
+              "title": "WebSocket's"
+            }
+          },
+          {
+            "id": "d158d241c1f9abf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/ChatApp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ChatApp"
             }
           },
           {
@@ -109,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -280,17 +294,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a732ec9b2c15844b",
+  "active": "d158d241c1f9abf3",
   "lastOpenFiles": [
+    "project/Untitled.base",
+    "project/ChatApp.md",
+    "Untitled.canvas",
+    "Development/WEBSOCKET/WebSocket's.md",
     "project/_Project-index.md",
-    "Development/_INDEX.md",
+    "README.GIT.md",
+    "project/CertiTrust.md",
     "Development/WEBSOCKET/WebSocket for NODE.js.md",
+    "Development/_INDEX.md",
     "_Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md",
     "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md",
     "images/Screenshot 2024-04-06 at 6.06.53 PM.png",
-    "README.GIT.md",
     "project/Softskill.canvas",
-    "Development/WEBSOCKET/WebSocket's.md",
     "Development/CLOUD/AWS-Amazon Web Services.md",
     "Development/CLOUD",
     "project/StockSim.md",
@@ -308,15 +326,12 @@
     "Development/AUTH/ZOD.md",
     "images/Pasted image 20260225024350.png",
     "Development/GIT/GIT Commands.md",
-    "project/CertiTrust.md",
     "project/completed/SECOND BRAIN APP.md",
     "WebSocket.md",
     "Development/WEBSOCKET",
     "Development/FRONTEND/REACT-HOOK-FORM.md",
-    "Development/JS/REGEX.md",
     "images/Pasted image 20260409140744.png",
     "images/Pasted image 20260409140720.png",
-    "_Excalidraw/Projects.md",
     "images/Pasted image 20260301235154.png",
     "images/Pasted image 20260205012414.png",
     "images/Pasted image 20260203152317.png",

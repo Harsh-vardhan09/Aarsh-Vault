@@ -8,6 +8,7 @@ We’ll be using the `ws` library today.
 
 Problems with [socket.io](http://socket.io/) - Even though socket.io is great (it gives you constructs like `rooms` to make the API much cleaner), it’s harder to support multiple platforms in it (Android, IOS, Rust) There are implementations in most platforms but not very up to date [https://socket.io/blog/native-socket-io-and-android/](https://socket.io/blog/native-socket-io-and-android/) [https://github.com/1c3t3a/rust-socketio](https://github.com/1c3t3a/rust-socketio)
 
+
 ---
 
 # Create a Project
@@ -38,6 +39,8 @@ npm i ws @types/ws
 ```
 
 ### Approaches to start WebSocket server:-
+
+***We use the WS library to make the server node  has inbuilt WebSocket but not to create its server like how we need to use express to create http server
 
 ### Code using http library
 
