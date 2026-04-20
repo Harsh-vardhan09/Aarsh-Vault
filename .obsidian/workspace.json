@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67c5216984013a48",
+            "id": "6fa9d8dafb1eb106",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,17 +36,57 @@
             }
           },
           {
+            "id": "67c5216984013a48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/SQL DATABASE/4.CRUD in POSTGRES.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.CRUD in POSTGRES"
+            }
+          },
+          {
             "id": "44ea759dfe516ad3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/CertiTrust.md",
+                "file": "Development/SQL DATABASE/5.Postgres for nodejs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CertiTrust"
+              "title": "5.Postgres for nodejs"
+            }
+          },
+          {
+            "id": "2f755e331ebac1f5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20260420232609.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260420232609"
+            }
+          },
+          {
+            "id": "44d25682a6078097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/SQL DATABASE/6.Relationship and Transactions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.Relationship and Transactions"
             }
           },
           {
@@ -62,68 +102,9 @@
               "icon": "lucide-file",
               "title": "README.GIT"
             }
-          },
-          {
-            "id": "c37f3d851494d461",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/WEBSOCKET/WebSocket's.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WebSocket's"
-            }
-          },
-          {
-            "id": "d158d241c1f9abf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "project/ChatApp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ChatApp"
-            }
-          },
-          {
-            "id": "8dd4d792967976a1",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "project/Softskill.canvas",
-                "viewState": {
-                  "x": 20.776294536063048,
-                  "y": 64.70320560273346,
-                  "zoom": -0.02187569197686498
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Softskill"
-            }
-          },
-          {
-            "id": "22bedf9c7d6c914c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/CLOUD/AWS-Amazon Web Services.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AWS-Amazon Web Services"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -294,49 +275,50 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d158d241c1f9abf3",
+  "active": "2f755e331ebac1f5",
   "lastOpenFiles": [
-    "project/Untitled.base",
-    "project/ChatApp.md",
-    "Untitled.canvas",
-    "Development/WEBSOCKET/WebSocket's.md",
+    "images/Pasted image 20260420232909.png",
+    "images/Pasted image 20260420233908.png",
+    "images/Pasted image 20260420232609.png",
+    "Development/SQL DATABASE/6.Relationship and Transactions.md",
+    "Development/SQL DATABASE/8.SQL INJECTION.md",
+    "Development/SQL DATABASE/5.Postgres for nodejs.md",
+    "Development/SQL DATABASE/4.CRUD in POSTGRES.md",
     "project/_Project-index.md",
-    "README.GIT.md",
-    "project/CertiTrust.md",
-    "Development/WEBSOCKET/WebSocket for NODE.js.md",
     "Development/_INDEX.md",
+    "Development/SQL DATABASE/2.SQL VS NoSQL.md",
+    "project/CertiTrust.md",
+    "Development/SQL DATABASE/3.Creating Database.md",
+    "Development/SQL DATABASE/1.TYPES OF DATABASES.md",
+    "README.GIT.md",
+    "Development/NoSQL DATABASE/MONGODB.md",
+    "images/Pasted image 20260420170447.png",
+    "images/Pasted image 20260420162641.png",
+    "images/Pasted image 20260420032217.png",
+    "images/Pasted image 20260420032047.png",
+    "images/Pasted image 20260420031852.png",
+    "images/Pasted image 20260420031622.png",
+    "Development/SQL DATABASE",
+    "Development/WEBSOCKET/WebSocket's.md",
+    "Development/WEBSOCKET/WebSocket for NODE.js.md",
+    "project/ChatApp.md",
+    "Development/CLOUD/AWS-Amazon Web Services.md",
+    "project/Softskill.canvas",
+    "project/Untitled.base",
+    "Untitled.canvas",
     "_Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md",
     "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md",
     "images/Screenshot 2024-04-06 at 6.06.53 PM.png",
-    "project/Softskill.canvas",
-    "Development/CLOUD/AWS-Amazon Web Services.md",
     "Development/CLOUD",
     "project/StockSim.md",
     "_Excalidraw/Drawing 2026-04-15 11.03.02.excalidraw.md",
     "_Excalidraw/Drawing 2026-04-15 12.42.16.excalidraw.md",
     "_Excalidraw/Untitled.md",
-    "images/Pasted image 20260415112606.png",
     "_Excalidraw/Untitled.base",
     "project/ATHLEAD-RESTRUCTING.md",
     "project/Aetheria.md",
     "Untitled/Password.md",
-    "VIBE-CODING/VIBE_CODING 102.md",
-    "VIBE-CODING/VIBE_CODING 101.md",
-    "project/completed/Zingle.md",
-    "Development/AUTH/ZOD.md",
-    "images/Pasted image 20260225024350.png",
-    "Development/GIT/GIT Commands.md",
-    "project/completed/SECOND BRAIN APP.md",
-    "WebSocket.md",
     "Development/WEBSOCKET",
-    "Development/FRONTEND/REACT-HOOK-FORM.md",
-    "images/Pasted image 20260409140744.png",
-    "images/Pasted image 20260409140720.png",
-    "images/Pasted image 20260301235154.png",
-    "images/Pasted image 20260205012414.png",
-    "images/Pasted image 20260203152317.png",
-    "images/Pasted image 20260202010848.png",
-    "images/Pasted image 20260130220111.png",
     "project/completed",
     "VIBE-CODING",
     "Development/JS"

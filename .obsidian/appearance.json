@@ -1,7 +1,8 @@
 {
   "cssTheme": "",
   "enabledCssSnippets": [
-    "graph-background"
+    "graph-background",
+    "style"
   ],
   "baseFontSizeAction": false,
   "theme": "system",
