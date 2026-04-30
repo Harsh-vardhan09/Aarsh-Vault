@@ -36,45 +36,83 @@
             }
           },
           {
-            "id": "67c5216984013a48",
+            "id": "058cae52c11ce2ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/SQL DATABASE/4.CRUD in POSTGRES.md",
+                "file": "Development/PRISMA ORM/1.What are ORMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.CRUD in POSTGRES"
+              "title": "1.What are ORMs"
             }
           },
           {
-            "id": "44ea759dfe516ad3",
+            "id": "026ba86fdee26506",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/SQL DATABASE/5.Postgres for nodejs.md",
+                "file": "Development/PRISMA ORM/2.PRISMA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.Postgres for nodejs"
+              "title": "2.PRISMA"
             }
           },
           {
-            "id": "2f755e331ebac1f5",
+            "id": "683495a596c1ff44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/SQL DATABASE/6.Relationship and Transactions.md",
+                "file": "Development/PRISMA ORM/3.Install prisma.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6.Relationship and Transactions"
+              "title": "3.Install prisma"
+            }
+          },
+          {
+            "id": "7bb101d0386130a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/PRISMA ORM/5.Relationship in prisma.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5.Relationship in prisma"
+            }
+          },
+          {
+            "id": "7d8a60fa3a5c67bb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "9e3355203811ed0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.DEFINING DATAMODEL"
             }
           },
           {
@@ -92,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -263,23 +301,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f755e331ebac1f5",
+  "active": "7bb101d0386130a9",
   "lastOpenFiles": [
-    "Development/SQL DATABASE/4.CRUD in POSTGRES.md",
-    "Development/SQL DATABASE/6.Relationship and Transactions.md",
+    "Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
+    "Development/SQL DATABASE/Generate postgres url.md",
+    "Development/PRISMA ORM/3.Install prisma.md",
+    "GENERATE POSTGRES URL.md",
+    "Development/PRISMA ORM/5.Relationship in prisma.md",
+    "Development/PRISMA ORM/2.PRISMA.md",
+    "Development/PRISMA ORM/1.What are ORMs.md",
     "README.GIT.md",
-    "Development/SQL DATABASE/5.Postgres for nodejs.md",
+    "Development/AUTH/ZOD.md",
+    "project/completed/Zingle.md",
+    "Development/BACKEND/NODE ERROR HANDLING.md",
+    "project/completed/LEARNING PROJECT-  Wanderlust.md",
+    "project/_Project-index.md",
+    "Development/AUTH/ACCESS VS REFRESH.md",
+    "project/completed/ATHLEAD-RESTRUCTING.md",
+    "project/Aetheria.md",
+    "project/CertiTrust.md",
+    "project/completed/ChatApp.md",
+    "project/Softskill.canvas",
+    "project/StockSim.md",
+    "project/Property-Management.md",
+    "_Excalidraw/Projects.md",
+    "Untitled.canvas",
+    "WebSocket.md",
+    "project/completed/Imaginaryx.md",
+    "Untitled/BIO.md",
+    "Development/_INDEX.md",
+    "Excalidraw/Drawing 2026-04-24 22.31.03.excalidraw.md",
+    "Excalidraw",
+    "Untitled 1.canvas",
+    "project/Untitled.base",
+    "Development/PRISMA ORM",
     "images/Pasted image 20260420232609.png",
     "images/Pasted image 20260420232909.png",
     "images/Pasted image 20260420233908.png",
-    "Development/SQL DATABASE/8.SQL INJECTION.md",
-    "project/_Project-index.md",
-    "Development/_INDEX.md",
-    "Development/SQL DATABASE/2.SQL VS NoSQL.md",
-    "project/CertiTrust.md",
-    "Development/SQL DATABASE/3.Creating Database.md",
-    "Development/SQL DATABASE/1.TYPES OF DATABASES.md",
-    "Development/NoSQL DATABASE/MONGODB.md",
     "images/Pasted image 20260420170447.png",
     "images/Pasted image 20260420162641.png",
     "images/Pasted image 20260420032217.png",
@@ -287,25 +345,9 @@
     "images/Pasted image 20260420031852.png",
     "images/Pasted image 20260420031622.png",
     "Development/SQL DATABASE",
-    "Development/WEBSOCKET/WebSocket's.md",
-    "Development/WEBSOCKET/WebSocket for NODE.js.md",
-    "project/ChatApp.md",
-    "Development/CLOUD/AWS-Amazon Web Services.md",
-    "project/Softskill.canvas",
-    "project/Untitled.base",
-    "Untitled.canvas",
-    "_Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md",
-    "_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md",
     "images/Screenshot 2024-04-06 at 6.06.53 PM.png",
     "Development/CLOUD",
-    "project/StockSim.md",
-    "_Excalidraw/Drawing 2026-04-15 11.03.02.excalidraw.md",
-    "_Excalidraw/Drawing 2026-04-15 12.42.16.excalidraw.md",
-    "_Excalidraw/Untitled.md",
     "_Excalidraw/Untitled.base",
-    "project/ATHLEAD-RESTRUCTING.md",
-    "project/Aetheria.md",
-    "Untitled/Password.md",
     "Development/WEBSOCKET",
     "project/completed",
     "VIBE-CODING",

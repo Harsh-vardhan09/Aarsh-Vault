@@ -11,8 +11,8 @@
 /* Code block container */
 .markdown-rendered pre,
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
-  /* background-color: #181818 !important;  */
+  /* background-color: #181818 !important;   */
   border-left: 4px solid #204AE3;
 
-}
+} 
 
