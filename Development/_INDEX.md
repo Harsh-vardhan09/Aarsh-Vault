@@ -24,5 +24,7 @@
 | [[WebSocket for NODE.js]]                                                                                                                                                                           | 15/04/2026 | 19/04/2026 |
 | [[1.TYPES OF DATABASES]] [[2.SQL VS NoSQL]]<br>[[3.Creating Database]]   [[4.CRUD in POSTGRES]]<br>[[5.Postgres for nodejs]] [[6.Relationship and Transactions]]<br>[[7.JOINS]] [[8.SQL INJECTION]] | 20/04/2026 | 22/04/2026 |
 | [[ACCESS VS REFRESH]]                                                                                                                                                                               | 26/04/2026 |            |
+| [[1.What are ORMs]]                                                                                                                                                                                 | 30/04/2026 | 30/04/2026 |
+| [[NEXT-Why next js]]                                                                                                                                                                                | 01/05/2026 |            |
 
 SYSTEM DESIGN(LLD,HLD PATTERNS)

@@ -83,12 +83,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/PRISMA ORM/5.Relationship in prisma.md",
+                "file": "Development/_INDEX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.Relationship in prisma"
+              "title": "_INDEX"
+            }
+          },
+          {
+            "id": "20011d719915d022",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/NEXTJS/NEXT-Why next js.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NEXT-Why next js"
+            }
+          },
+          {
+            "id": "09221cdca056c8c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.GIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README.GIT"
             }
           },
           {
@@ -129,8 +157,7 @@
               "title": "README.GIT"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -301,16 +328,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7bb101d0386130a9",
+  "active": "6fa9d8dafb1eb106",
   "lastOpenFiles": [
-    "Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
-    "Development/SQL DATABASE/Generate postgres url.md",
-    "Development/PRISMA ORM/3.Install prisma.md",
+    "README.GIT.md",
+    "Development/SQL DATABASE/GENERATE POSTGRES URL.md",
     "GENERATE POSTGRES URL.md",
+    "Untitled.md",
+    "WebSocket.md",
+    "Untitled.canvas",
+    "Development/NEXTJS/NEXT-Why next js.md",
+    "Development/_INDEX.md",
     "Development/PRISMA ORM/5.Relationship in prisma.md",
+    "Development/NEXTJS",
+    "Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
+    "Development/PRISMA ORM/3.Install prisma.md",
     "Development/PRISMA ORM/2.PRISMA.md",
     "Development/PRISMA ORM/1.What are ORMs.md",
-    "README.GIT.md",
     "Development/AUTH/ZOD.md",
     "project/completed/Zingle.md",
     "Development/BACKEND/NODE ERROR HANDLING.md",
@@ -325,12 +358,6 @@
     "project/StockSim.md",
     "project/Property-Management.md",
     "_Excalidraw/Projects.md",
-    "Untitled.canvas",
-    "WebSocket.md",
-    "project/completed/Imaginaryx.md",
-    "Untitled/BIO.md",
-    "Development/_INDEX.md",
-    "Excalidraw/Drawing 2026-04-24 22.31.03.excalidraw.md",
     "Excalidraw",
     "Untitled 1.canvas",
     "project/Untitled.base",
@@ -350,7 +377,6 @@
     "_Excalidraw/Untitled.base",
     "Development/WEBSOCKET",
     "project/completed",
-    "VIBE-CODING",
-    "Development/JS"
+    "VIBE-CODING"
   ]
 }
