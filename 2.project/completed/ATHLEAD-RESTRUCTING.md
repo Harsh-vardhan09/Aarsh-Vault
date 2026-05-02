@@ -6,7 +6,7 @@
 ---
 ### Architecture
 
-![[_Excalidraw/Projects.md#^frame=xIERVEMtKUH7o10is_WD1|100%]]
+![[Projects#^frame=xIERVEMtKUH7o10is_WD1|100%]]
 
 **LINK :-** https://athlead-frontend.onrender.com/
 

@@ -22,87 +22,81 @@
             }
           },
           {
-            "id": "66b6d28d3558d138",
+            "id": "40fb93c821be3f74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "project/_Project-index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_Project-index"
+              "title": "New tab"
             }
           },
           {
-            "id": "058cae52c11ce2ed",
+            "id": "7a086a27df2f4902",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/PRISMA ORM/1.What are ORMs.md",
+                "file": "1.Development/NEXTJS/1. NEXT-Why next js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.What are ORMs"
+              "title": "1. NEXT-Why next js"
             }
           },
           {
-            "id": "026ba86fdee26506",
+            "id": "699492681c8f4925",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/PRISMA ORM/2.PRISMA.md",
+                "file": "1.Development/NEXTJS/3. Let’s bootstrap a simple Next app.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.PRISMA"
+              "title": "3. Let’s bootstrap a simple Next app"
             }
           },
           {
-            "id": "683495a596c1ff44",
+            "id": "de47f70b084e1d56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/PRISMA ORM/3.Install prisma.md",
+                "file": "1.Development/NEXTJS/3. Let’s bootstrap a simple Next app.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.Install prisma"
+              "title": "3. Let’s bootstrap a simple Next app"
             }
           },
           {
-            "id": "7bb101d0386130a9",
+            "id": "807307ff2418991c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/_INDEX.md",
+                "file": "1.Development/NEXTJS/5. Layout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_INDEX"
+              "title": "5. Layout"
             }
           },
           {
-            "id": "20011d719915d022",
+            "id": "9a2419bde86466f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Development/NEXTJS/NEXT-Why next js.md",
-                "mode": "source",
-                "source": false
+                "file": "_Excalidraw/nextjs.md"
               },
-              "icon": "lucide-file",
-              "title": "NEXT-Why next js"
+              "icon": "excalidraw-icon",
+              "title": "nextjs"
             }
           },
           {
@@ -120,44 +114,21 @@
             }
           },
           {
-            "id": "7d8a60fa3a5c67bb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "9e3355203811ed0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
+                "file": "1.Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "4.DEFINING DATAMODEL"
             }
-          },
-          {
-            "id": "4c643f3b2ee88ebc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.GIT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README.GIT"
-            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -279,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "project/Zingle.md",
+                "file": "1.Development/NEXTJS/5. Layout.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Zingle"
+              "title": "Outline of 5. Layout"
             }
           },
           {
@@ -328,55 +299,56 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6fa9d8dafb1eb106",
+  "active": "973784267f6e7bde",
   "lastOpenFiles": [
+    "1.Development/NEXTJS/4. Routing and server side rendering.md",
+    "1.Development/NEXTJS/5. Layout.md",
+    "1.Development/NEXTJS/3. Let’s bootstrap a simple Next app.md",
+    "1.Development/NEXTJS/1. NEXT-Why next js.md",
+    "_Excalidraw/nextjs.md",
     "README.GIT.md",
-    "Development/SQL DATABASE/GENERATE POSTGRES URL.md",
-    "GENERATE POSTGRES URL.md",
-    "Untitled.md",
-    "WebSocket.md",
-    "Untitled.canvas",
-    "Development/NEXTJS/NEXT-Why next js.md",
-    "Development/_INDEX.md",
-    "Development/PRISMA ORM/5.Relationship in prisma.md",
-    "Development/NEXTJS",
-    "Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
-    "Development/PRISMA ORM/3.Install prisma.md",
-    "Development/PRISMA ORM/2.PRISMA.md",
-    "Development/PRISMA ORM/1.What are ORMs.md",
-    "Development/AUTH/ZOD.md",
-    "project/completed/Zingle.md",
-    "Development/BACKEND/NODE ERROR HANDLING.md",
-    "project/completed/LEARNING PROJECT-  Wanderlust.md",
-    "project/_Project-index.md",
-    "Development/AUTH/ACCESS VS REFRESH.md",
-    "project/completed/ATHLEAD-RESTRUCTING.md",
-    "project/Aetheria.md",
-    "project/CertiTrust.md",
-    "project/completed/ChatApp.md",
-    "project/Softskill.canvas",
-    "project/StockSim.md",
-    "project/Property-Management.md",
-    "_Excalidraw/Projects.md",
+    "1.Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
+    "1.Development/NEXTJS/2. NEXTJS.md",
     "Excalidraw",
+    "INTERVIEW QUESTIONs.md",
     "Untitled 1.canvas",
+    "Untitled 1.md",
+    "1.Development/PRISMA ORM/3.Install prisma.md",
+    "_Excalidraw/Hacklynk.md",
+    "2.project/_Project-index.md",
+    "2.project/CertiTrust.md",
+    "project/HACKLYNK.canvas",
+    "images/Pasted image 20260501160523.png",
+    "project/HACKLYNK.md",
+    "_Excalidraw/Drawing 2026-02-23 23.56.15.excalidraw.md",
+    "1.Development/PRISMA ORM/2.PRISMA.md",
     "project/Untitled.base",
-    "Development/PRISMA ORM",
+    "1.Development/PRISMA ORM/1.What are ORMs.md",
+    "images/Pasted Image 20260501160154_658.png",
+    "images/Pasted image 20260501160050.png",
+    "images/Pasted image 20260501160038.png",
+    "images/Pasted image 20260501155955.png",
+    "images/Pasted image 20260501155939.png",
+    "images/Pasted Image 20260501155643_467.png",
+    "1.Development/_INDEX.md",
+    "1.Development/SQL DATABASE/GENERATE POSTGRES URL.md",
+    "GENERATE POSTGRES URL.md",
+    "WebSocket.md",
+    "1.Development/PRISMA ORM/5.Relationship in prisma.md",
+    "1.Development/NEXTJS",
+    "1.Development/AUTH/ZOD.md",
+    "2.project/completed/Zingle.md",
+    "1.Development/BACKEND/NODE ERROR HANDLING.md",
+    "2.project/Softskill.canvas",
+    "_Excalidraw",
+    "1.Development/PRISMA ORM",
     "images/Pasted image 20260420232609.png",
     "images/Pasted image 20260420232909.png",
     "images/Pasted image 20260420233908.png",
-    "images/Pasted image 20260420170447.png",
-    "images/Pasted image 20260420162641.png",
-    "images/Pasted image 20260420032217.png",
-    "images/Pasted image 20260420032047.png",
-    "images/Pasted image 20260420031852.png",
-    "images/Pasted image 20260420031622.png",
-    "Development/SQL DATABASE",
-    "images/Screenshot 2024-04-06 at 6.06.53 PM.png",
-    "Development/CLOUD",
+    "1.Development/SQL DATABASE",
+    "1.Development/CLOUD",
     "_Excalidraw/Untitled.base",
-    "Development/WEBSOCKET",
-    "project/completed",
-    "VIBE-CODING"
+    "1.Development/WEBSOCKET",
+    "2.project/completed"
   ]
 }

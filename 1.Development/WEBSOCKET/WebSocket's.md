@@ -2,7 +2,7 @@
 
 *WebSocket provide a way to establish a persistent, full duplex communication channel over a single TCP connection between the client(Typically a web browser) and the server.*
 
-![[_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md#^frame=fOb44aoFGomrCEjDIbe6K]]
+![[Drawing 2026-04-10 23.26.32.excalidraw#^frame=fOb44aoFGomrCEjDIbe6K]]
 
 This happens for every time the axios request is sent. So its very slow.
 
@@ -13,7 +13,7 @@ SO the connection only establishes only once. So client can send multiple messag
  
 **We create TCP server using WebSocket .It is used for Real Time Communication.**
 
-![[_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md#^frame=tUufnvcl4pw4qQ9pM_6Vz]]
+![[Drawing 2026-04-10 23.26.32.excalidraw#^frame=tUufnvcl4pw4qQ9pM_6Vz]]
 
 ### **Use Cases for WebSocket's:**
 

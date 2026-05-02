@@ -149,7 +149,7 @@ wss.on('connection', function connection(ws) {
 
 # Scaling ws servers   18/04/2026
 
-![[_Excalidraw/Drawing 2026-04-10 23.26.32.excalidraw.md#^frame=61OgFJVQgY9Wrso09YHFF|100%]]
+![[Drawing 2026-04-10 23.26.32.excalidraw#^frame=61OgFJVQgY9Wrso09YHFF|100%]]
 
 *In the real world, you’d want more than one websocket servers (Especially as your website gets more traffic)
 
