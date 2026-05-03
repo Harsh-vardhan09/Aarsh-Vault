@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/_INDEX.md",
+                "file": "1.Development/_INDEX.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,13 +22,17 @@
             }
           },
           {
-            "id": "40fb93c821be3f74",
+            "id": "cfd7d6735811dcb8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2.project/_Project-index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "_Project-index"
             }
           },
           {
@@ -43,6 +47,20 @@
               },
               "icon": "lucide-file",
               "title": "1. NEXT-Why next js"
+            }
+          },
+          {
+            "id": "e254e99b86e7411a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.Development/GSAP-THREEJS/GSAP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GSAP"
             }
           },
           {
@@ -128,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -299,12 +317,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "973784267f6e7bde",
+  "active": "e254e99b86e7411a",
   "lastOpenFiles": [
-    "1.Development/NEXTJS/4. Routing and server side rendering.md",
-    "1.Development/NEXTJS/5. Layout.md",
-    "1.Development/NEXTJS/3. Let’s bootstrap a simple Next app.md",
     "1.Development/NEXTJS/1. NEXT-Why next js.md",
+    "1.Development/GSAP-THREEJS/GSAP.md",
+    "2.project/_Project-index.md",
+    "1.Development/_INDEX.md",
+    "1.Development/NEXTJS/5. Layout.md",
+    "1.Development/GSAP-THREEJS",
+    "1.Development/NEXTJS/4. Routing and server side rendering.md",
+    "1.Development/NEXTJS/3. Let’s bootstrap a simple Next app.md",
     "_Excalidraw/nextjs.md",
     "README.GIT.md",
     "1.Development/PRISMA ORM/4.DEFINING DATAMODEL.md",
@@ -315,7 +337,6 @@
     "Untitled 1.md",
     "1.Development/PRISMA ORM/3.Install prisma.md",
     "_Excalidraw/Hacklynk.md",
-    "2.project/_Project-index.md",
     "2.project/CertiTrust.md",
     "project/HACKLYNK.canvas",
     "images/Pasted image 20260501160523.png",
@@ -330,7 +351,6 @@
     "images/Pasted image 20260501155955.png",
     "images/Pasted image 20260501155939.png",
     "images/Pasted Image 20260501155643_467.png",
-    "1.Development/_INDEX.md",
     "1.Development/SQL DATABASE/GENERATE POSTGRES URL.md",
     "GENERATE POSTGRES URL.md",
     "WebSocket.md",
@@ -338,7 +358,6 @@
     "1.Development/NEXTJS",
     "1.Development/AUTH/ZOD.md",
     "2.project/completed/Zingle.md",
-    "1.Development/BACKEND/NODE ERROR HANDLING.md",
     "2.project/Softskill.canvas",
     "_Excalidraw",
     "1.Development/PRISMA ORM",
@@ -348,7 +367,6 @@
     "1.Development/SQL DATABASE",
     "1.Development/CLOUD",
     "_Excalidraw/Untitled.base",
-    "1.Development/WEBSOCKET",
-    "2.project/completed"
+    "1.Development/WEBSOCKET"
   ]
 }
