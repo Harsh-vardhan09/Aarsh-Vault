@@ -1,0 +1,5 @@
+I am a Full Stack Developer with a strong foundation in Java, modern frontend frameworks, and DevOps practices. I specialize in building scalable web applications using Next.js, React, and Node.js, along with backend development in Java-based ecosystems. I have hands-on experience designing RESTful APIs, managing databases, and implementing secure authentication systems.
+
+Alongside development, I work with DevOps tools and workflows, focusing on CI/CD pipelines, containerization, and deployment strategies to ensure efficient and reliable software delivery. I enjoy solving real-world problems through clean, maintainable code and continuously learning new technologies.
+
+I am currently seeking an internship opportunity where I can contribute to impactful projects, strengthen my full stack and DevOps skills, and collaborate within a growth-driven engineering team.

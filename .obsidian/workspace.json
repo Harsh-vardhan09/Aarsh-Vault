@@ -1,0 +1,277 @@
+{
+  "main": {
+    "id": "c3d96e61b1642578",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfc7d9c7eba81c78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd92047f3e10b0f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.WEB DEVELOPMENT/_INDEX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_INDEX"
+            }
+          },
+          {
+            "id": "7b73ef39f06fe5f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.PROJECT/_Project-index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Project-index"
+            }
+          },
+          {
+            "id": "f40d49c7de347e21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.WEB DEVELOPMENT/NEXTJS/_NEXT INDEX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_NEXT INDEX"
+            }
+          },
+          {
+            "id": "7a11f88a4ffae6f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.WEB DEVELOPMENT/NEXTJS/15.Catch all routes backend.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15.Catch all routes backend"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b00a39b044e71d49",
+    "type": "split",
+    "children": [
+      {
+        "id": "d879767b2b849db1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bea59a9a789f0f37",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f72ba3692373f7aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e14b846d5a57e8db",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "14a4add4cd26eda4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c768383fbcc1468",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ba42750887e5fdf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1.Development/NEXTJS/12.catch all-segement.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 12.catch all-segement"
+            }
+          },
+          {
+            "id": "0c2f0f2d3da36773",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1.Development/NEXTJS/12.catch all-segement.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 12.catch all-segement"
+            }
+          },
+          {
+            "id": "d7a46d8c040c81d3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ac639650c20b1e6e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1.Development/NEXTJS/12.catch all-segement.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 12.catch all-segement"
+            }
+          },
+          {
+            "id": "ade4e4d021e51e28",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "33271dbf12ba5657",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "33271dbf12ba5657",
+  "lastOpenFiles": [
+    "1.WEB DEVELOPMENT/NEXTJS/_NEXT INDEX.md",
+    "1.WEB DEVELOPMENT/GIT/GIT VERSION CONTROL.md",
+    "2.APP-DEVELOPMENT/REACT-Native/React native.md",
+    "1.WEB DEVELOPMENT/_INDEX.md",
+    "3.PROJECT/_Project-index.md",
+    "1.WEB DEVELOPMENT/GIT/GIT Commands.md",
+    "Untitled 1.md",
+    "1.WEB DEVELOPMENT/TYPESCRIPT/TYPESCRIPT.md",
+    "1.WEB DEVELOPMENT/TYPESCRIPT/TYPESCRIPT-2.md",
+    "_Excalidraw/App development.md",
+    "2.APP-DEVELOPMENT/REACT-Native/Untitled.base",
+    "INTERVIEW QUESTIONs.md",
+    "2.APP-DEVELOPMENT/REACT-Native",
+    "2.APP-DEVELOPMENT",
+    "1.WEB DEVELOPMENT/NEXT AUTH/What is next auth.md",
+    "1.WEB DEVELOPMENT/NEXT AUTH/Why not use JWT + localstorage.md",
+    "1.WEB DEVELOPMENT/NEXTJS/15.Catch all routes backend.md",
+    "1.WEB DEVELOPMENT/NEXTJS/14.Hydration.md",
+    "1.WEB DEVELOPMENT/NEXT AUTH",
+    "1.WEB DEVELOPMENT/NEXTJS/11.Route groups  & Dynamic routes.md",
+    "images/Screenshot 2024-12-21 at 7.10.04 PM.png",
+    "images/Screenshot 2024-12-21 at 7.02.03 PM.png",
+    "1.WEB DEVELOPMENT/NEXTJS/13.Static site generation.md",
+    "images/Pasted image 20260506140332.png",
+    "1.WEB DEVELOPMENT/NEXTJS/12.catch all-segement.md",
+    "images/Screenshot 2024-12-21 at 6.32.13 PM.png",
+    "images/Screenshot 2024-12-21 at 6.19.30 PM.png",
+    "images/Screenshot 2024-12-21 at 6.06.34 PM.png",
+    "1.WEB DEVELOPMENT/NEXTJS/10.Better fetches.md",
+    "1.WEB DEVELOPMENT/NEXTJS/9.DATABASES.md",
+    "1.WEB DEVELOPMENT/NEXTJS/6.Singleton prisma client.md",
+    "1.WEB DEVELOPMENT/NEXTJS/8.Loaders in next.md",
+    "1.WEB DEVELOPMENT/NEXTJS/7.Data fetching in next.md",
+    "1.WEB DEVELOPMENT/NEXTJS/6.Backend NextJS.md",
+    "3.PROJECT/Aetheria.md",
+    "3.PROJECT/completed/Zingle.md"
+  ]
+}
