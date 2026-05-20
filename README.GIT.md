@@ -24,9 +24,15 @@
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=harsh-vardhan09&" alt="harsh-vardhan09" /></p>
 
 ![](https://ghchart.rshah.org/Harsh-vardhan09)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Harsh-vardhan09/Template/master/generated/languages.svg#gh-dark-mode-only" width="500"/>
 </p>
+
+<p align="center">
+<img src="https://commitpulse.vercel.app/api/streak?user=harsh-vardhan09&theme=dark&radius=100" alt="CommitPulse" />
+</p>
+
 
 ---
   
@@ -93,3 +99,8 @@
 </a>
 
 </div>
+
+
+
+
+

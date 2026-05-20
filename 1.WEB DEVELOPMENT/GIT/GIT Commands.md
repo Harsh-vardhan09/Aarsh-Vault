@@ -232,6 +232,13 @@ git config --global alias.cdate '!git commit -m "$(date +%Y-%m-%d)" '
 ```bash
 git config --global alias.cdate '!f() { git commit -m "$* $(date +%Y-%m-%d)"; }; f'
 ```
+
+*In dd/mm/yy format*
+
+```bash
+git config --global alias.cdate '!f() { git commit -m "$* $(date +%d/%m/%y)"; }; f'
+```
+
 Then just run:
 
 ```bash
