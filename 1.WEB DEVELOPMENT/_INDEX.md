@@ -28,5 +28,8 @@
 | [[_NEXT INDEX]]                                                                                                                                                                                     | 01/05/2026 |            |
 | [[GSAP]]                                                                                                                                                                                            | 03/05/2026 | 04/05/2026 |
 | [[THREE JS]]                                                                                                                                                                                        | 04/05/2026 |            |
+| [[What is next auth]]                                                                                                                                                                               |            |            |
+| [[1. monorepo]]                                                                                                                                                                                     | 23/05/2026 | 25/05/2026 |
+| [[Client side rendering]]                                                                                                                                                                           | 25/05/2026 |            |
 
 SYSTEM DESIGN(LLD,HLD PATTERNS)
