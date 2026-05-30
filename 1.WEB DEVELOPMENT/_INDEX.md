@@ -31,5 +31,6 @@
 | [[What is next auth]]                                                                                                                                                                               |            |            |
 | [[1. monorepo]]                                                                                                                                                                                     | 23/05/2026 | 25/05/2026 |
 | [[Client side rendering]]                                                                                                                                                                           | 25/05/2026 |            |
+| [[BASH COMMANDS]]                                                                                                                                                                                   | 27/05/2026 |            |
 
 SYSTEM DESIGN(LLD,HLD PATTERNS)

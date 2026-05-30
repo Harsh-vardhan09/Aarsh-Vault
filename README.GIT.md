@@ -20,7 +20,6 @@
 
 <div align="center" style="margin-bottom:20px;"><img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Harsh-vardhan09&theme=aura"  alt="harsh-vardhan09" /></div>
 
-
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=harsh-vardhan09&" alt="harsh-vardhan09" /></p>
 
 ![](https://ghchart.rshah.org/Harsh-vardhan09)
