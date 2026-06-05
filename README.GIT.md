@@ -6,8 +6,6 @@
 </div>
 
 
-
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=harsh-vardhan09" alt="harsh-vardhan09" /></a> </p>  
 <h3 align="center">Hi 👋, I'm Aarsh-HV</h3>  
 <h5 align="left" >I'm a student, Aspiring Developer and coderr. Seeking adventure and new things in the world of Tech</h5>  
