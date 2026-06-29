@@ -6,13 +6,13 @@ TypesScript was introduced as a new languages to add types on top of javaScript.
 - Strongly typed and weakly typed languages refer to how programming languages handle types, **particularly how strict they are.
 - **Strongly typed are better for later phases as it has lower run time error.
 
-| strongly typed                      | Weakly typed       |
-| ----------------------------------- | ------------------ |
-| JAVA, C++, Rust                     | Python, js, perl   |
-| *Benefit*                           | *Benefit*          |
-| lesser runtime error                | Easy to write code |
-| Stricter code base                  | fast to bootstrap  |
-| Easy to catch error at compile time | low learning curve |
+| strongly typed                      | Weakly typed       |     |
+| ----------------------------------- | ------------------ | --- |
+| JAVA, C++, Rust                     | Python, js, perl   |     |
+| *Benefit*                           | *Benefit*          |     |
+| lesser runtime error                | Easy to write code |     |
+| Stricter code base                  | fast to bootstrap  |     |
+| Easy to catch error at compile time | low learning curve |     |
 
 ![[Pasted image 20260217224051.png]]
 
