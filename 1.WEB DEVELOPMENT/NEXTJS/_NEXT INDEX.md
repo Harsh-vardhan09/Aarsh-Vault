@@ -15,4 +15,4 @@
 | [[12.catch all-segement]]                | 05/05/2026 |
 | [[13.Static site generation]]            | 06/05/2026 |
 | [[14.Hydration]]                         | 06/05/2026 |
-| [[15.Catch all routes backend]]                     | 06/05/2026 |
+| [[15.Catch all routes backend]]          | 06/05/2026 |
