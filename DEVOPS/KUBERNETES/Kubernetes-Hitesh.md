@@ -432,6 +432,8 @@ Service
 
 # 12. Deployment
 
+![[Pasted image 20260902234222.png]]
+
 Now we have Pods.
 
 But who creates and manages them?

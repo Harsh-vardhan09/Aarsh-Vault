@@ -97,6 +97,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "1.WEB DEVELOPMENT/TESTING/Application Testing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Application Testing"
+            }
+          },
+          {
+            "id": "430bc2065f551e88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.WEB DEVELOPMENT/TESTING/Testing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Testing"
+            }
+          },
+          {
+            "id": "7611859a9b557cee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "DEVOPS/KUBERNETES/Kubernetes-Hitesh.md",
                 "mode": "source",
                 "source": false
@@ -106,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -281,47 +309,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "327b0da797a8e74a",
+  "active": "430bc2065f551e88",
   "lastOpenFiles": [
+    "images/Pasted image 20260903031512.png",
+    "images/Pasted image 20260903030528.png",
+    "1.WEB DEVELOPMENT/TESTING/Application Testing.md",
+    "DEVOPS/KUBERNETES/Kubernetes-Hitesh.md",
+    "DEVOPS/DEVOPS.md",
+    "3.PROJECT/Instant_mechanic.md",
+    "_Excalidraw/Projects.md",
+    "1.WEB DEVELOPMENT/TESTING/Testing.md",
+    "images/Pasted image 20260903025929.png",
+    "images/Pasted image 20260902234222.png",
+    "_Excalidraw/App development.md",
+    "DEVOPS/CI_CD/CI-CD commands.md",
+    "DEVOPS/GIT-GITHUB/GIT-GITHUB.md",
+    "DEVOPS/_INDEX.md",
+    "1.WEB DEVELOPMENT/_INDEX.md",
+    "images/Pasted image 20260831034123.png",
+    "1.WEB DEVELOPMENT/TESTING",
     "images/Pasted image 20260830014754.png",
     "images/Pasted image 20260830014354.png",
     "DEVOPS/KUBERNETES/Ingress.md",
-    "DEVOPS/KUBERNETES/Kubernetes-Hitesh.md",
     "DEVOPS/KUBERNETES/Kubernetes-JSM.md",
     "images/Pasted image 20260829221602.png",
     "images/Pasted image 20260829221539.png",
     "images/Pasted image 20260829221501.png",
     "images/Pasted image 20260829221422.png",
-    "images/Pasted image 20260829221402.png",
-    "images/Pasted image 20260829221039.png",
-    "DEVOPS/DEVOPS.md",
     "DEVOPS/DOCKER-JSM/2.Docker workflow.md",
     "DEVOPS/DOCKER-JSM/1.DOCKER-JSM.md",
     "DEVOPS/CI_CD/Untitled.md",
-    "DEVOPS/CI_CD/CI-CD commands.md",
     "DEVOPS/CI_CD/CI-CD BASICS.md",
-    "images/Pasted image 20260826233228.png",
-    "images/Pasted image 20260826233211.png",
-    "images/Pasted image 20260826233152.png",
-    "DEVOPS/GIT-GITHUB/GIT-GITHUB.md",
     "1.WEB DEVELOPMENT/GIT/GIT Commands.md",
     "DEVOPS/KUBERNETES",
     "DEVOPS/CI_CD",
     "DEVOPS/GIT-GITHUB",
-    "DEVOPS/_INDEX.md",
     "EXTRAS/Password.md",
     "README.GIT.md",
-    "1.WEB DEVELOPMENT/_INDEX.md",
     "1.WEB DEVELOPMENT/NEXTJS/_NEXT INDEX.md",
     "3.PROJECT/_Project-index.md",
     "3.PROJECT/Aetheria.md",
     "cafe os.md",
     "GAIL.md",
-    "vyor.md",
-    "Untitled.md",
-    "TATA.md",
-    "jpitstaffing.md",
-    "EXTRAS/BIO.md",
     "DEVOPS/DOCKER-JSM"
   ]
 }
