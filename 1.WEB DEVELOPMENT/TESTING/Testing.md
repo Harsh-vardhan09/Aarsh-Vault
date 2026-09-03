@@ -76,3 +76,36 @@ suite("greet function tests", () => {
 > A **test** checks one specific piece of behavior in your code.
 > A **suite** is a **group/container of related tests**.
 
+
+
+### Mocking:-
+
+- When we check for the API like payment, DB, which may lead to side effect
+- To test it in Isolation
+- We create a fake/mock version of the internal function so that it doesn't do the outside API call.
+
+
+### Stubs:-
+
+- It returns data only.
+- Snapshot testing
+
+```js
+import {describe,test,mock,it} from "node:test";
+import assert from "node:assert";
+import { fetchData } from "../app.js";
+
+  
+describe("user tests", () => {
+
+    it("fetches the data from the server",(t)=>{
+        const data= fetchData(1);
+        t.assert.snapshot(data);
+    })
+})
+```
+
+
+### How to use these tests:-
+
+![[Pasted image 20260904041445.png]]
